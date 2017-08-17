@@ -1,0 +1,940 @@
+#########################################################################
+# Topology File for:
+# param/CRO.tpl
+# CRO_pH_7.0
+#
+# Created on: 2017-05-08
+#
+# Created with: make_tpl_1.py by Stephanie Rodriguez& Salah Salah
+#####################################################################
+
+# neural always starts with 0
+# numberical value means the charge is 1
+# alphabet Lower case starting from "a" (and increasing) means the charge is 2
+# alphabet Upper case starting from "A" (and increasing) means the charge is 3
+# alphabet Lower case starting from "z" (and decreasing) means the charge is 4
+# alphabet Upper case starting from "Z" (and decreasing) means the charge is 5
+
+CONFLIST CRO        CROBK CRO-1 CRO-a CRO01 CRO-2 CRO02 CRODM 
+
+NATOM    CROBK      0
+NATOM    CRO-1      39
+NATOM    CRO-a      38
+NATOM    CRO01      40
+NATOM    CRO-2      39
+NATOM    CRO02      40
+NATOM    CRODM      0
+
+IATOM    CRO-1    N1    0
+IATOM    CRO-1   CA1    1
+IATOM    CRO-1   CB1    2
+IATOM    CRO-1   CG1    3
+IATOM    CRO-1   OG1    4
+IATOM    CRO-1    C1    5
+IATOM    CRO-1    N2    6
+IATOM    CRO-1    N3    7
+IATOM    CRO-1    C2    8
+IATOM    CRO-1    O2    9
+IATOM    CRO-1   CA2   10
+IATOM    CRO-1   CA3   11
+IATOM    CRO-1    C3   12
+IATOM    CRO-1    O3   13
+IATOM    CRO-1   CB2   14
+IATOM    CRO-1   CG2   15
+IATOM    CRO-1   CD1   16
+IATOM    CRO-1   CD2   17
+IATOM    CRO-1   CE1   18
+IATOM    CRO-1   CE2   19
+IATOM    CRO-1    CZ   20
+IATOM    CRO-1    OH   21
+IATOM    CRO-1   OXT   22
+IATOM    CRO-1  HN11   23
+IATOM    CRO-1    H2   24
+IATOM    CRO-1   HA1   25
+IATOM    CRO-1   HB1   26
+IATOM    CRO-1  HG11   27
+IATOM    CRO-1  HG12   28
+IATOM    CRO-1  HG13   29
+IATOM    CRO-1  HOG1   30
+IATOM    CRO-1  HA31   31
+IATOM    CRO-1  HA32   32
+IATOM    CRO-1   HB2   33
+IATOM    CRO-1   HD1   34
+IATOM    CRO-1   HD2   35
+IATOM    CRO-1   HE1   36
+IATOM    CRO-1   HE2   37
+IATOM    CRO-1   HOH   38
+
+IATOM    CRO-a    N1    0
+IATOM    CRO-a   CA1    1
+IATOM    CRO-a   CB1    2
+IATOM    CRO-a   CG1    3
+IATOM    CRO-a   OG1    4
+IATOM    CRO-a    C1    5
+IATOM    CRO-a    N2    6
+IATOM    CRO-a    N3    7
+IATOM    CRO-a    C2    8
+IATOM    CRO-a    O2    9
+IATOM    CRO-a   CA2   10
+IATOM    CRO-a   CA3   11
+IATOM    CRO-a    C3   12
+IATOM    CRO-a    O3   13
+IATOM    CRO-a   CB2   14
+IATOM    CRO-a   CG2   15
+IATOM    CRO-a   CD1   16
+IATOM    CRO-a   CD2   17
+IATOM    CRO-a   CE1   18
+IATOM    CRO-a   CE2   19
+IATOM    CRO-a    CZ   20
+IATOM    CRO-a    OH   21
+IATOM    CRO-a   OXT   22
+IATOM    CRO-a  HN11   23
+IATOM    CRO-a    H2   24
+IATOM    CRO-a   HA1   25
+IATOM    CRO-a   HB1   26
+IATOM    CRO-a  HG11   27
+IATOM    CRO-a  HG12   28
+IATOM    CRO-a  HG13   29
+IATOM    CRO-a  HOG1   30
+IATOM    CRO-a  HA31   31
+IATOM    CRO-a  HA32   32
+IATOM    CRO-a   HB2   33
+IATOM    CRO-a   HD1   34
+IATOM    CRO-a   HD2   35
+IATOM    CRO-a   HE1   36
+IATOM    CRO-a   HE2   37
+
+IATOM    CRO01    N1    0
+IATOM    CRO01   CA1    1
+IATOM    CRO01   CB1    2
+IATOM    CRO01   CG1    3
+IATOM    CRO01   OG1    4
+IATOM    CRO01    C1    5
+IATOM    CRO01    N2    6
+IATOM    CRO01    N3    7
+IATOM    CRO01    C2    8
+IATOM    CRO01    O2    9
+IATOM    CRO01   CA2   10
+IATOM    CRO01   CA3   11
+IATOM    CRO01    C3   12
+IATOM    CRO01    O3   13
+IATOM    CRO01   CB2   14
+IATOM    CRO01   CG2   15
+IATOM    CRO01   CD1   16
+IATOM    CRO01   CD2   17
+IATOM    CRO01   CE1   18
+IATOM    CRO01   CE2   19
+IATOM    CRO01    CZ   20
+IATOM    CRO01    OH   21
+IATOM    CRO01   OXT   22
+IATOM    CRO01  HN11   23
+IATOM    CRO01    H2   24
+IATOM    CRO01   HA1   25
+IATOM    CRO01   HB1   26
+IATOM    CRO01  HG11   27
+IATOM    CRO01  HG12   28
+IATOM    CRO01  HG13   29
+IATOM    CRO01  HOG1   30
+IATOM    CRO01  HA31   31
+IATOM    CRO01  HA32   32
+IATOM    CRO01   HB2   33
+IATOM    CRO01   HD1   34
+IATOM    CRO01   HD2   35
+IATOM    CRO01   HE1   36
+IATOM    CRO01   HE2   37
+IATOM    CRO01   HOH   38
+IATOM    CRO01   H40   39
+
+IATOM    CRO-2    N1    0
+IATOM    CRO-2   CA1    1
+IATOM    CRO-2   CB1    2
+IATOM    CRO-2   CG1    3
+IATOM    CRO-2   OG1    4
+IATOM    CRO-2    C1    5
+IATOM    CRO-2    N2    6
+IATOM    CRO-2    N3    7
+IATOM    CRO-2    C2    8
+IATOM    CRO-2    O2    9
+IATOM    CRO-2   CA2   10
+IATOM    CRO-2   CA3   11
+IATOM    CRO-2    C3   12
+IATOM    CRO-2    O3   13
+IATOM    CRO-2   CB2   14
+IATOM    CRO-2   CG2   15
+IATOM    CRO-2   CD1   16
+IATOM    CRO-2   CD2   17
+IATOM    CRO-2   CE1   18
+IATOM    CRO-2   CE2   19
+IATOM    CRO-2    CZ   20
+IATOM    CRO-2    OH   21
+IATOM    CRO-2   OXT   22
+IATOM    CRO-2  HN11   23
+IATOM    CRO-2    H2   24
+IATOM    CRO-2   HA1   25
+IATOM    CRO-2   HB1   26
+IATOM    CRO-2  HG11   27
+IATOM    CRO-2  HG12   28
+IATOM    CRO-2  HG13   29
+IATOM    CRO-2  HOG1   30
+IATOM    CRO-2  HA31   31
+IATOM    CRO-2  HA32   32
+IATOM    CRO-2   HB2   33
+IATOM    CRO-2   HD1   34
+IATOM    CRO-2   HD2   35
+IATOM    CRO-2   HE1   36
+IATOM    CRO-2   HE2   37
+IATOM    CRO-2   H39   38
+
+IATOM    CRO02    N1    0
+IATOM    CRO02   CA1    1
+IATOM    CRO02   CB1    2
+IATOM    CRO02   CG1    3
+IATOM    CRO02   OG1    4
+IATOM    CRO02    C1    5
+IATOM    CRO02    N2    6
+IATOM    CRO02    N3    7
+IATOM    CRO02    C2    8
+IATOM    CRO02    O2    9
+IATOM    CRO02   CA2   10
+IATOM    CRO02   CA3   11
+IATOM    CRO02    C3   12
+IATOM    CRO02    O3   13
+IATOM    CRO02   CB2   14
+IATOM    CRO02   CG2   15
+IATOM    CRO02   CD1   16
+IATOM    CRO02   CD2   17
+IATOM    CRO02   CE1   18
+IATOM    CRO02   CE2   19
+IATOM    CRO02    CZ   20
+IATOM    CRO02    OH   21
+IATOM    CRO02   OXT   22
+IATOM    CRO02  HN11   23
+IATOM    CRO02    H2   24
+IATOM    CRO02   HA1   25
+IATOM    CRO02   HB1   26
+IATOM    CRO02  HG11   27
+IATOM    CRO02  HG12   28
+IATOM    CRO02  HG13   29
+IATOM    CRO02  HOG1   30
+IATOM    CRO02  HA31   31
+IATOM    CRO02  HA32   32
+IATOM    CRO02   HXT   33
+IATOM    CRO02   HB2   34
+IATOM    CRO02   HD1   35
+IATOM    CRO02   HD2   36
+IATOM    CRO02   HE1   37
+IATOM    CRO02   HE2   38
+IATOM    CRO02   HOH   39
+
+ATOMNAME CRO-1     0  N1
+ATOMNAME CRO-1     1 CA1
+ATOMNAME CRO-1     2 CB1
+ATOMNAME CRO-1     3 CG1
+ATOMNAME CRO-1     4 OG1
+ATOMNAME CRO-1     5  C1
+ATOMNAME CRO-1     6  N2
+ATOMNAME CRO-1     7  N3
+ATOMNAME CRO-1     8  C2
+ATOMNAME CRO-1     9  O2
+ATOMNAME CRO-1    10 CA2
+ATOMNAME CRO-1    11 CA3
+ATOMNAME CRO-1    12  C3
+ATOMNAME CRO-1    13  O3
+ATOMNAME CRO-1    14 CB2
+ATOMNAME CRO-1    15 CG2
+ATOMNAME CRO-1    16 CD1
+ATOMNAME CRO-1    17 CD2
+ATOMNAME CRO-1    18 CE1
+ATOMNAME CRO-1    19 CE2
+ATOMNAME CRO-1    20  CZ
+ATOMNAME CRO-1    21  OH
+ATOMNAME CRO-1    22 OXT
+ATOMNAME CRO-1    23HN11
+ATOMNAME CRO-1    24  H2
+ATOMNAME CRO-1    25 HA1
+ATOMNAME CRO-1    26 HB1
+ATOMNAME CRO-1    27HG11
+ATOMNAME CRO-1    28HG12
+ATOMNAME CRO-1    29HG13
+ATOMNAME CRO-1    30HOG1
+ATOMNAME CRO-1    31HA31
+ATOMNAME CRO-1    32HA32
+ATOMNAME CRO-1    33 HB2
+ATOMNAME CRO-1    34 HD1
+ATOMNAME CRO-1    35 HD2
+ATOMNAME CRO-1    36 HE1
+ATOMNAME CRO-1    37 HE2
+ATOMNAME CRO-1    38 HOH
+
+ATOMNAME CRO-a     0  N1
+ATOMNAME CRO-a     1 CA1
+ATOMNAME CRO-a     2 CB1
+ATOMNAME CRO-a     3 CG1
+ATOMNAME CRO-a     4 OG1
+ATOMNAME CRO-a     5  C1
+ATOMNAME CRO-a     6  N2
+ATOMNAME CRO-a     7  N3
+ATOMNAME CRO-a     8  C2
+ATOMNAME CRO-a     9  O2
+ATOMNAME CRO-a    10 CA2
+ATOMNAME CRO-a    11 CA3
+ATOMNAME CRO-a    12  C3
+ATOMNAME CRO-a    13  O3
+ATOMNAME CRO-a    14 CB2
+ATOMNAME CRO-a    15 CG2
+ATOMNAME CRO-a    16 CD1
+ATOMNAME CRO-a    17 CD2
+ATOMNAME CRO-a    18 CE1
+ATOMNAME CRO-a    19 CE2
+ATOMNAME CRO-a    20  CZ
+ATOMNAME CRO-a    21  OH
+ATOMNAME CRO-a    22 OXT
+ATOMNAME CRO-a    23HN11
+ATOMNAME CRO-a    24  H2
+ATOMNAME CRO-a    25 HA1
+ATOMNAME CRO-a    26 HB1
+ATOMNAME CRO-a    27HG11
+ATOMNAME CRO-a    28HG12
+ATOMNAME CRO-a    29HG13
+ATOMNAME CRO-a    30HOG1
+ATOMNAME CRO-a    31HA31
+ATOMNAME CRO-a    32HA32
+ATOMNAME CRO-a    33 HB2
+ATOMNAME CRO-a    34 HD1
+ATOMNAME CRO-a    35 HD2
+ATOMNAME CRO-a    36 HE1
+ATOMNAME CRO-a    37 HE2
+
+ATOMNAME CRO01     0  N1
+ATOMNAME CRO01     1 CA1
+ATOMNAME CRO01     2 CB1
+ATOMNAME CRO01     3 CG1
+ATOMNAME CRO01     4 OG1
+ATOMNAME CRO01     5  C1
+ATOMNAME CRO01     6  N2
+ATOMNAME CRO01     7  N3
+ATOMNAME CRO01     8  C2
+ATOMNAME CRO01     9  O2
+ATOMNAME CRO01    10 CA2
+ATOMNAME CRO01    11 CA3
+ATOMNAME CRO01    12  C3
+ATOMNAME CRO01    13  O3
+ATOMNAME CRO01    14 CB2
+ATOMNAME CRO01    15 CG2
+ATOMNAME CRO01    16 CD1
+ATOMNAME CRO01    17 CD2
+ATOMNAME CRO01    18 CE1
+ATOMNAME CRO01    19 CE2
+ATOMNAME CRO01    20  CZ
+ATOMNAME CRO01    21  OH
+ATOMNAME CRO01    22 OXT
+ATOMNAME CRO01    23HN11
+ATOMNAME CRO01    24  H2
+ATOMNAME CRO01    25 HA1
+ATOMNAME CRO01    26 HB1
+ATOMNAME CRO01    27HG11
+ATOMNAME CRO01    28HG12
+ATOMNAME CRO01    29HG13
+ATOMNAME CRO01    30HOG1
+ATOMNAME CRO01    31HA31
+ATOMNAME CRO01    32HA32
+ATOMNAME CRO01    33 HB2
+ATOMNAME CRO01    34 HD1
+ATOMNAME CRO01    35 HD2
+ATOMNAME CRO01    36 HE1
+ATOMNAME CRO01    37 HE2
+ATOMNAME CRO01    38 HOH
+ATOMNAME CRO01    39 H40
+
+ATOMNAME CRO-2     0  N1
+ATOMNAME CRO-2     1 CA1
+ATOMNAME CRO-2     2 CB1
+ATOMNAME CRO-2     3 CG1
+ATOMNAME CRO-2     4 OG1
+ATOMNAME CRO-2     5  C1
+ATOMNAME CRO-2     6  N2
+ATOMNAME CRO-2     7  N3
+ATOMNAME CRO-2     8  C2
+ATOMNAME CRO-2     9  O2
+ATOMNAME CRO-2    10 CA2
+ATOMNAME CRO-2    11 CA3
+ATOMNAME CRO-2    12  C3
+ATOMNAME CRO-2    13  O3
+ATOMNAME CRO-2    14 CB2
+ATOMNAME CRO-2    15 CG2
+ATOMNAME CRO-2    16 CD1
+ATOMNAME CRO-2    17 CD2
+ATOMNAME CRO-2    18 CE1
+ATOMNAME CRO-2    19 CE2
+ATOMNAME CRO-2    20  CZ
+ATOMNAME CRO-2    21  OH
+ATOMNAME CRO-2    22 OXT
+ATOMNAME CRO-2    23HN11
+ATOMNAME CRO-2    24  H2
+ATOMNAME CRO-2    25 HA1
+ATOMNAME CRO-2    26 HB1
+ATOMNAME CRO-2    27HG11
+ATOMNAME CRO-2    28HG12
+ATOMNAME CRO-2    29HG13
+ATOMNAME CRO-2    30HOG1
+ATOMNAME CRO-2    31HA31
+ATOMNAME CRO-2    32HA32
+ATOMNAME CRO-2    33 HB2
+ATOMNAME CRO-2    34 HD1
+ATOMNAME CRO-2    35 HD2
+ATOMNAME CRO-2    36 HE1
+ATOMNAME CRO-2    37 HE2
+ATOMNAME CRO-2    38 H39
+
+ATOMNAME CRO02     0  N1
+ATOMNAME CRO02     1 CA1
+ATOMNAME CRO02     2 CB1
+ATOMNAME CRO02     3 CG1
+ATOMNAME CRO02     4 OG1
+ATOMNAME CRO02     5  C1
+ATOMNAME CRO02     6  N2
+ATOMNAME CRO02     7  N3
+ATOMNAME CRO02     8  C2
+ATOMNAME CRO02     9  O2
+ATOMNAME CRO02    10 CA2
+ATOMNAME CRO02    11 CA3
+ATOMNAME CRO02    12  C3
+ATOMNAME CRO02    13  O3
+ATOMNAME CRO02    14 CB2
+ATOMNAME CRO02    15 CG2
+ATOMNAME CRO02    16 CD1
+ATOMNAME CRO02    17 CD2
+ATOMNAME CRO02    18 CE1
+ATOMNAME CRO02    19 CE2
+ATOMNAME CRO02    20  CZ
+ATOMNAME CRO02    21  OH
+ATOMNAME CRO02    22 OXT
+ATOMNAME CRO02    23HN11
+ATOMNAME CRO02    24  H2
+ATOMNAME CRO02    25 HA1
+ATOMNAME CRO02    26 HB1
+ATOMNAME CRO02    27HG11
+ATOMNAME CRO02    28HG12
+ATOMNAME CRO02    29HG13
+ATOMNAME CRO02    30HOG1
+ATOMNAME CRO02    31HA31
+ATOMNAME CRO02    32HA32
+ATOMNAME CRO02    33 HXT
+ATOMNAME CRO02    34 HB2
+ATOMNAME CRO02    35 HD1
+ATOMNAME CRO02    36 HD2
+ATOMNAME CRO02    37 HE1
+ATOMNAME CRO02    38 HE2
+ATOMNAME CRO02    39 HOH
+
+#1.Basic Conformer Information: name, pka, em, rxn.
+#23456789A123456789B123456789C
+
+# PROTON SECTION: PROTON means charge
+
+PROTON   CRO-1      0    
+PROTON   CRO-a      0    
+PROTON   CRO01      0    
+PROTON   CRO-2      0    
+PROTON   CRO02      0    
+PROTON   CRODM      0    
+
+# Solution pKa Section: pKa data from CRC Handbook of Chemistry and Physics
+# pka is set to zero
+PKA      CRO-1         0.000
+PKA      CRO-a         0.000
+PKA      CRO01         0.000
+PKA      CRO-2         0.000
+PKA      CRO02         0.000
+PKA      CRODM         0.000
+
+#ELECTRON SECTION:
+ELECTRON CRO-1      0.0  
+ELECTRON CRO-a      0.0  
+ELECTRON CRO01      0.0  
+ELECTRON CRO-2      0.0  
+ELECTRON CRO02      0.0  
+ELECTRON CRODM      0.0  
+
+# EM SECTION:
+EM       CRO-1      0.0  
+EM       CRO-a      0.0  
+EM       CRO01      0.0  
+EM       CRO-2      0.0  
+EM       CRO02      0.0  
+EM       CRODM      0.0  
+
+# REACTION FIELD ENERGY SECTION:
+RXN      CRO-1      0.0  
+RXN      CRO-a      0.0  
+RXN      CRO01      0.0  
+RXN      CRO-2      0.0  
+RXN      CRO02      0.0  
+
+#  CRO-1
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  CRO-1  N1     sp3     0   CA1   0   HN11  0    H2  
+CONNECT  CRO-1 CA1     sp3     0    N1   0    C1   0   HA1   0   CB1  
+CONNECT  CRO-1 CB1     sp3     0   CA1   0   HB1   0   CG1   0   OG1  
+CONNECT  CRO-1 CG1     sp3     0   CB1   0   HG11  0   HG12  0   HG13 
+CONNECT  CRO-1 OG1     sp3     0   CB1   0   HOG1 
+CONNECT  CRO-1  C1     sp2     0   CA1   0    N3   0    N2  
+CONNECT  CRO-1  N2     sp2     0    C1   0   CA2  
+CONNECT  CRO-1  N3     sp2     0    C1   0   CA3   0    C2  
+CONNECT  CRO-1  C2     sp2     0    N3   0    O2   0   CA2  
+CONNECT  CRO-1  O2     sp2     0    C2  
+CONNECT  CRO-1 CA2     sp2     0    N2   0    C2   0   CB2  
+CONNECT  CRO-1 CA3     sp3     0    N3   0    C3   0   HA31  0   HA32 
+CONNECT  CRO-1  C3     sp2     0   CA3   0    O3   0   OXT  
+CONNECT  CRO-1  O3   unknown   0    C3  
+CONNECT  CRO-1 CB2     sp2     0   CA2   0   HB2   0   CG2  
+CONNECT  CRO-1 CG2     sp2     0   CB2   0   CD2   0   CD1  
+CONNECT  CRO-1 CD1     sp2     0   CG2   0   HD1   0   CE1  
+CONNECT  CRO-1 CD2     sp2     0   CG2   0   HD2   0   CE2  
+CONNECT  CRO-1 CE1     sp2     0   CD1   0    CZ   0   HE1  
+CONNECT  CRO-1 CE2     sp2     0   CD2   0   HE2   0    CZ  
+CONNECT  CRO-1  CZ     sp2     0   CE1   0   CE2   0    OH  
+CONNECT  CRO-1  OH     sp3     0    CZ   0   HOH  
+CONNECT  CRO-1 OXT   unknown   0    C3  
+CONNECT  CRO-1 HN11     s      0    N1  
+CONNECT  CRO-1  H2      s      0    N1  
+CONNECT  CRO-1 HA1      s      0   CA1  
+CONNECT  CRO-1 HB1      s      0   CB1  
+CONNECT  CRO-1 HG11     s      0   CG1  
+CONNECT  CRO-1 HG12     s      0   CG1  
+CONNECT  CRO-1 HG13     s      0   CG1  
+CONNECT  CRO-1 HOG1     s      0   OG1  
+CONNECT  CRO-1 HA31     s      0   CA3  
+CONNECT  CRO-1 HA32     s      0   CA3  
+CONNECT  CRO-1 HB2      s      0   CB2  
+CONNECT  CRO-1 HD1      s      0   CD1  
+CONNECT  CRO-1 HD2      s      0   CD2  
+CONNECT  CRO-1 HE1      s      0   CE1  
+CONNECT  CRO-1 HE2      s      0   CE2  
+CONNECT  CRO-1 HOH      s      0    OH  
+
+#  CRO-a
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  CRO-a  N1     sp3     0   CA1   0   HN11  0    H2  
+CONNECT  CRO-a CA1     sp3     0    N1   0    C1   0   HA1   0   CB1  
+CONNECT  CRO-a CB1     sp3     0   CA1   0   HB1   0   CG1   0   OG1  
+CONNECT  CRO-a CG1     sp3     0   CB1   0   HG11  0   HG12  0   HG13 
+CONNECT  CRO-a OG1     sp3     0   CB1   0   HOG1 
+CONNECT  CRO-a  C1     sp2     0   CA1   0    N3   0    N2  
+CONNECT  CRO-a  N2     sp2     0    C1   0   CA2  
+CONNECT  CRO-a  N3     sp2     0    C1   0   CA3   0    C2  
+CONNECT  CRO-a  C2     sp2     0    N3   0    O2   0   CA2  
+CONNECT  CRO-a  O2     sp2     0    C2  
+CONNECT  CRO-a CA2     sp2     0    N2   0    C2   0   CB2  
+CONNECT  CRO-a CA3     sp3     0    N3   0    C3   0   HA31  0   HA32 
+CONNECT  CRO-a  C3     sp2     0   CA3   0    O3   0   OXT  
+CONNECT  CRO-a  O3   unknown   0    C3  
+CONNECT  CRO-a CB2     sp2     0   CA2   0   HB2   0   CG2  
+CONNECT  CRO-a CG2     sp2     0   CB2   0   CD2   0   CD1  
+CONNECT  CRO-a CD1     sp2     0   CG2   0   HD1   0   CE1  
+CONNECT  CRO-a CD2     sp2     0   CG2   0   HD2   0   CE2  
+CONNECT  CRO-a CE1     sp2     0   CD1   0    CZ   0   HE1  
+CONNECT  CRO-a CE2     sp2     0   CD2   0   HE2   0    CZ  
+CONNECT  CRO-a  CZ     sp2     0   CE1   0   CE2   0    OH  
+CONNECT  CRO-a  OH     sp3     0    CZ  
+CONNECT  CRO-a OXT   unknown   0    C3  
+CONNECT  CRO-a HN11     s      0    N1  
+CONNECT  CRO-a  H2      s      0    N1  
+CONNECT  CRO-a HA1      s      0   CA1  
+CONNECT  CRO-a HB1      s      0   CB1  
+CONNECT  CRO-a HG11     s      0   CG1  
+CONNECT  CRO-a HG12     s      0   CG1  
+CONNECT  CRO-a HG13     s      0   CG1  
+CONNECT  CRO-a HOG1     s      0   OG1  
+CONNECT  CRO-a HA31     s      0   CA3  
+CONNECT  CRO-a HA32     s      0   CA3  
+CONNECT  CRO-a HB2      s      0   CB2  
+CONNECT  CRO-a HD1      s      0   CD1  
+CONNECT  CRO-a HD2      s      0   CD2  
+CONNECT  CRO-a HE1      s      0   CE1  
+CONNECT  CRO-a HE2      s      0   CE2  
+
+#  CRO01
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  CRO01  N1     sp3     0   CA1   0   HN11  0    H2   0   H40  
+CONNECT  CRO01 CA1     sp3     0    N1   0    C1   0   HA1   0   CB1  
+CONNECT  CRO01 CB1     sp3     0   CA1   0   HB1   0   CG1   0   OG1  
+CONNECT  CRO01 CG1     sp3     0   CB1   0   HG11  0   HG12  0   HG13 
+CONNECT  CRO01 OG1     sp3     0   CB1   0   HOG1 
+CONNECT  CRO01  C1     sp2     0   CA1   0    N3   0    N2  
+CONNECT  CRO01  N2     sp2     0    C1   0   CA2  
+CONNECT  CRO01  N3     sp2     0    C1   0   CA3   0    C2  
+CONNECT  CRO01  C2     sp2     0    N3   0    O2   0   CA2  
+CONNECT  CRO01  O2     sp2     0    C2  
+CONNECT  CRO01 CA2     sp2     0    N2   0    C2   0   CB2  
+CONNECT  CRO01 CA3     sp3     0    N3   0    C3   0   HA31  0   HA32 
+CONNECT  CRO01  C3     sp2     0   CA3   0    O3   0   OXT  
+CONNECT  CRO01  O3   unknown   0    C3  
+CONNECT  CRO01 CB2     sp2     0   CA2   0   HB2   0   CG2  
+CONNECT  CRO01 CG2     sp2     0   CB2   0   CD2   0   CD1  
+CONNECT  CRO01 CD1     sp2     0   CG2   0   HD1   0   CE1  
+CONNECT  CRO01 CD2     sp2     0   CG2   0   HD2   0   CE2  
+CONNECT  CRO01 CE1     sp2     0   CD1   0    CZ   0   HE1  
+CONNECT  CRO01 CE2     sp2     0   CD2   0   HE2   0    CZ  
+CONNECT  CRO01  CZ     sp2     0   CE1   0   CE2   0    OH  
+CONNECT  CRO01  OH     sp3     0    CZ   0   HOH  
+CONNECT  CRO01 OXT   unknown   0    C3  
+CONNECT  CRO01 HN11     s      0    N1  
+CONNECT  CRO01  H2      s      0    N1  
+CONNECT  CRO01 HA1      s      0   CA1  
+CONNECT  CRO01 HB1      s      0   CB1  
+CONNECT  CRO01 HG11     s      0   CG1  
+CONNECT  CRO01 HG12     s      0   CG1  
+CONNECT  CRO01 HG13     s      0   CG1  
+CONNECT  CRO01 HOG1     s      0   OG1  
+CONNECT  CRO01 HA31     s      0   CA3  
+CONNECT  CRO01 HA32     s      0   CA3  
+CONNECT  CRO01 HB2      s      0   CB2  
+CONNECT  CRO01 HD1      s      0   CD1  
+CONNECT  CRO01 HD2      s      0   CD2  
+CONNECT  CRO01 HE1      s      0   CE1  
+CONNECT  CRO01 HE2      s      0   CE2  
+CONNECT  CRO01 HOH      s      0    OH  
+CONNECT  CRO01 H40      s      0    N1  
+
+#  CRO-2
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  CRO-2  N1     sp3     0   CA1   0   HN11  0    H2   0   H39  
+CONNECT  CRO-2 CA1     sp3     0    N1   0    C1   0   HA1   0   CB1  
+CONNECT  CRO-2 CB1     sp3     0   CA1   0   HB1   0   CG1   0   OG1  
+CONNECT  CRO-2 CG1     sp3     0   CB1   0   HG11  0   HG12  0   HG13 
+CONNECT  CRO-2 OG1     sp3     0   CB1   0   HOG1 
+CONNECT  CRO-2  C1     sp2     0   CA1   0    N3   0    N2  
+CONNECT  CRO-2  N2     sp2     0    C1   0   CA2  
+CONNECT  CRO-2  N3     sp2     0    C1   0   CA3   0    C2  
+CONNECT  CRO-2  C2     sp2     0    N3   0    O2   0   CA2  
+CONNECT  CRO-2  O2     sp2     0    C2  
+CONNECT  CRO-2 CA2     sp2     0    N2   0    C2   0   CB2  
+CONNECT  CRO-2 CA3     sp3     0    N3   0    C3   0   HA31  0   HA32 
+CONNECT  CRO-2  C3     sp2     0   CA3   0    O3   0   OXT  
+CONNECT  CRO-2  O3   unknown   0    C3  
+CONNECT  CRO-2 CB2     sp2     0   CA2   0   HB2   0   CG2  
+CONNECT  CRO-2 CG2     sp2     0   CB2   0   CD2   0   CD1  
+CONNECT  CRO-2 CD1     sp2     0   CG2   0   HD1   0   CE1  
+CONNECT  CRO-2 CD2     sp2     0   CG2   0   HD2   0   CE2  
+CONNECT  CRO-2 CE1     sp2     0   CD1   0    CZ   0   HE1  
+CONNECT  CRO-2 CE2     sp2     0   CD2   0   HE2   0    CZ  
+CONNECT  CRO-2  CZ     sp2     0   CE1   0   CE2   0    OH  
+CONNECT  CRO-2  OH     sp3     0    CZ  
+CONNECT  CRO-2 OXT   unknown   0    C3  
+CONNECT  CRO-2 HN11     s      0    N1  
+CONNECT  CRO-2  H2      s      0    N1  
+CONNECT  CRO-2 HA1      s      0   CA1  
+CONNECT  CRO-2 HB1      s      0   CB1  
+CONNECT  CRO-2 HG11     s      0   CG1  
+CONNECT  CRO-2 HG12     s      0   CG1  
+CONNECT  CRO-2 HG13     s      0   CG1  
+CONNECT  CRO-2 HOG1     s      0   OG1  
+CONNECT  CRO-2 HA31     s      0   CA3  
+CONNECT  CRO-2 HA32     s      0   CA3  
+CONNECT  CRO-2 HB2      s      0   CB2  
+CONNECT  CRO-2 HD1      s      0   CD1  
+CONNECT  CRO-2 HD2      s      0   CD2  
+CONNECT  CRO-2 HE1      s      0   CE1  
+CONNECT  CRO-2 HE2      s      0   CE2  
+CONNECT  CRO-2 H39      s      0    N1  
+
+#  CRO02
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  CRO02  N1     sp3     0   CA1   0   HN11  0    H2  
+CONNECT  CRO02 CA1     sp3     0    N1   0    C1   0   HA1   0   CB1  
+CONNECT  CRO02 CB1     sp3     0   CA1   0   HB1   0   CG1   0   OG1  
+CONNECT  CRO02 CG1     sp3     0   CB1   0   HG11  0   HG12  0   HG13 
+CONNECT  CRO02 OG1     sp3     0   CB1   0   HOG1 
+CONNECT  CRO02  C1     sp2     0   CA1   0    N3   0    N2  
+CONNECT  CRO02  N2     sp2     0    C1   0   CA2  
+CONNECT  CRO02  N3     sp2     0    C1   0   CA3   0    C2  
+CONNECT  CRO02  C2     sp2     0    N3   0    O2   0   CA2  
+CONNECT  CRO02  O2     sp2     0    C2  
+CONNECT  CRO02 CA2     sp2     0    N2   0    C2   0   CB2  
+CONNECT  CRO02 CA3     sp3     0    N3   0    C3   0   HA31  0   HA32 
+CONNECT  CRO02  C3     sp2     0   CA3   0    O3   0   OXT  
+CONNECT  CRO02  O3     sp2     0    C3  
+CONNECT  CRO02 CB2     sp2     0   CA2   0   HB2   0   CG2  
+CONNECT  CRO02 CG2     sp2     0   CB2   0   CD2   0   CD1  
+CONNECT  CRO02 CD1     sp2     0   CG2   0   HD1   0   CE1  
+CONNECT  CRO02 CD2     sp2     0   CG2   0   HD2   0   CE2  
+CONNECT  CRO02 CE1     sp2     0   CD1   0    CZ   0   HE1  
+CONNECT  CRO02 CE2     sp2     0   CD2   0   HE2   0    CZ  
+CONNECT  CRO02  CZ     sp2     0   CE1   0   CE2   0    OH  
+CONNECT  CRO02  OH     sp3     0    CZ   0   HOH  
+CONNECT  CRO02 OXT     sp3     0    C3   0   HXT  
+CONNECT  CRO02 HN11     s      0    N1  
+CONNECT  CRO02  H2      s      0    N1  
+CONNECT  CRO02 HA1      s      0   CA1  
+CONNECT  CRO02 HB1      s      0   CB1  
+CONNECT  CRO02 HG11     s      0   CG1  
+CONNECT  CRO02 HG12     s      0   CG1  
+CONNECT  CRO02 HG13     s      0   CG1  
+CONNECT  CRO02 HOG1     s      0   OG1  
+CONNECT  CRO02 HA31     s      0   CA3  
+CONNECT  CRO02 HA32     s      0   CA3  
+CONNECT  CRO02 HXT      s      0   OXT  
+CONNECT  CRO02 HB2      s      0   CB2  
+CONNECT  CRO02 HD1      s      0   CD1  
+CONNECT  CRO02 HD2      s      0   CD2  
+CONNECT  CRO02 HE1      s      0   CE1  
+CONNECT  CRO02 HE2      s      0   CE2  
+CONNECT  CRO02 HOH      s      0    OH  
+
+# Atom Parameters:
+# Van Der Waals Radii. See source for reference
+RADIUS   CRO    N1       1.55
+RADIUS   CRO    CA1       1.7
+RADIUS   CRO    CB1       1.7
+RADIUS   CRO    CG1       1.7
+RADIUS   CRO    OG1      1.52
+RADIUS   CRO    C1        1.7
+RADIUS   CRO    N2       1.55
+RADIUS   CRO    N3       1.55
+RADIUS   CRO    C2        1.7
+RADIUS   CRO    O2       1.52
+RADIUS   CRO    CA2       1.7
+RADIUS   CRO    CA3       1.7
+RADIUS   CRO    C3        1.7
+RADIUS   CRO    O3       1.52
+RADIUS   CRO    CB2       1.7
+RADIUS   CRO    CG2       1.7
+RADIUS   CRO    CD1       1.7
+RADIUS   CRO    CD2       1.7
+RADIUS   CRO    CE1       1.7
+RADIUS   CRO    CE2       1.7
+RADIUS   CRO    CZ        1.7
+RADIUS   CRO    OH       1.52
+RADIUS   CRO    OXT      1.52
+RADIUS   CRO    HN11      1.2
+RADIUS   CRO    H2        1.2
+RADIUS   CRO    HA1       1.2
+RADIUS   CRO    HB1       1.2
+RADIUS   CRO    HG11      1.2
+RADIUS   CRO    HG12      1.2
+RADIUS   CRO    HG13      1.2
+RADIUS   CRO    HOG1      1.2
+RADIUS   CRO    HA31      1.2
+RADIUS   CRO    HA32      1.2
+RADIUS   CRO    HB2       1.2
+RADIUS   CRO    HD1       1.2
+RADIUS   CRO    HD2       1.2
+RADIUS   CRO    HE1       1.2
+RADIUS   CRO    HE2       1.2
+RADIUS   CRO    HOH       1.2
+RADIUS   CRO    H40       1.2
+
+CHARGE   CRO-1  N1  -0.9139
+CHARGE   CRO-1  CA1  0.1108
+CHARGE   CRO-1  CB1  0.1569
+CHARGE   CRO-1  CG1 -0.0987
+CHARGE   CRO-1  OG1 -0.6093
+CHARGE   CRO-1  C1   0.4235
+CHARGE   CRO-1  N2  -0.6759
+CHARGE   CRO-1  N3  -0.3669
+CHARGE   CRO-1  C2   0.6794
+CHARGE   CRO-1  O2  -0.5345
+CHARGE   CRO-1  CA2  0.0267
+CHARGE   CRO-1  CA3   -0.05
+CHARGE   CRO-1  C3    0.924
+CHARGE   CRO-1  O3  -0.8115
+CHARGE   CRO-1  CB2  -0.064
+CHARGE   CRO-1  CG2 -0.0706
+CHARGE   CRO-1  CD1  -0.073
+CHARGE   CRO-1  CD2  -0.073
+CHARGE   CRO-1  CE1 -0.1944
+CHARGE   CRO-1  CE2 -0.1944
+CHARGE   CRO-1  CZ   0.1129
+CHARGE   CRO-1  OH  -0.5075
+CHARGE   CRO-1  OXT -0.8115
+CHARGE   CRO-1  HN11  0.3576
+CHARGE   CRO-1  H2   0.3576
+CHARGE   CRO-1  HA1  0.0965
+CHARGE   CRO-1  HB1  0.0458
+CHARGE   CRO-1  HG11  0.0552
+CHARGE   CRO-1  HG12  0.0552
+CHARGE   CRO-1  HG13  0.0552
+CHARGE   CRO-1  HOG1  0.4069
+CHARGE   CRO-1  HA31  0.0342
+CHARGE   CRO-1  HA32  0.0342
+CHARGE   CRO-1  HB2  0.1473
+CHARGE   CRO-1  HD1  0.1449
+CHARGE   CRO-1  HD2  0.1449
+CHARGE   CRO-1  HE1  0.1333
+CHARGE   CRO-1  HE2  0.1333
+CHARGE   CRO-1  HOH  0.4126
+
+CHARGE   CRO-a  N1  -0.9216
+CHARGE   CRO-a  CA1  0.1239
+CHARGE   CRO-a  CB1  0.1529
+CHARGE   CRO-a  CG1 -0.0943
+CHARGE   CRO-a  OG1 -0.6262
+CHARGE   CRO-a  C1    0.331
+CHARGE   CRO-a  N2  -0.5979
+CHARGE   CRO-a  N3  -0.3806
+CHARGE   CRO-a  C2   0.6924
+CHARGE   CRO-a  O2  -0.6178
+CHARGE   CRO-a  CA2 -0.1217
+CHARGE   CRO-a  CA3 -0.0176
+CHARGE   CRO-a  C3   0.9236
+CHARGE   CRO-a  O3  -0.8345
+CHARGE   CRO-a  CB2  0.0917
+CHARGE   CRO-a  CG2 -0.2813
+CHARGE   CRO-a  CD1  -0.012
+CHARGE   CRO-a  CD2  -0.012
+CHARGE   CRO-a  CE1 -0.3425
+CHARGE   CRO-a  CE2 -0.3425
+CHARGE   CRO-a  CZ   0.5661
+CHARGE   CRO-a  OH  -0.7856
+CHARGE   CRO-a  OXT -0.8345
+CHARGE   CRO-a  HN11  0.3547
+CHARGE   CRO-a  H2   0.3547
+CHARGE   CRO-a  HA1  0.0789
+CHARGE   CRO-a  HB1   0.053
+CHARGE   CRO-a  HG11  0.0507
+CHARGE   CRO-a  HG12  0.0507
+CHARGE   CRO-a  HG13  0.0507
+CHARGE   CRO-a  HOG1  0.4026
+CHARGE   CRO-a  HA31  0.0178
+CHARGE   CRO-a  HA32  0.0178
+CHARGE   CRO-a  HB2   0.115
+CHARGE   CRO-a  HD1  0.0977
+CHARGE   CRO-a  HD2  0.0977
+CHARGE   CRO-a  HE1  0.0997
+CHARGE   CRO-a  HE2  0.0997
+
+CHARGE   CRO01  N1  -0.8354
+CHARGE   CRO01  CA1  0.1106
+CHARGE   CRO01  CB1  0.1382
+CHARGE   CRO01  CG1 -0.1418
+CHARGE   CRO01  OG1 -0.6523
+CHARGE   CRO01  C1   0.3556
+CHARGE   CRO01  N2    -0.63
+CHARGE   CRO01  N3  -0.3449
+CHARGE   CRO01  C2   0.6888
+CHARGE   CRO01  O2  -0.4955
+CHARGE   CRO01  CA2 -0.0269
+CHARGE   CRO01  CA3 -0.0905
+CHARGE   CRO01  C3   0.9362
+CHARGE   CRO01  O3  -0.7848
+CHARGE   CRO01  CB2  0.0237
+CHARGE   CRO01  CG2 -0.1132
+CHARGE   CRO01  CD1 -0.0589
+CHARGE   CRO01  CD2 -0.0589
+CHARGE   CRO01  CE1 -0.1961
+CHARGE   CRO01  CE2 -0.1961
+CHARGE   CRO01  CZ   0.1435
+CHARGE   CRO01  OH  -0.4911
+CHARGE   CRO01  OXT -0.7848
+CHARGE   CRO01  HN11  0.4611
+CHARGE   CRO01  H2   0.4611
+CHARGE   CRO01  HA1  0.1307
+CHARGE   CRO01  HB1  0.0833
+CHARGE   CRO01  HG11  0.0807
+CHARGE   CRO01  HG12  0.0807
+CHARGE   CRO01  HG13  0.0807
+CHARGE   CRO01  HOG1  0.4461
+CHARGE   CRO01  HA31  0.0337
+CHARGE   CRO01  HA32  0.0337
+CHARGE   CRO01  HB2  0.1649
+CHARGE   CRO01  HD1  0.1391
+CHARGE   CRO01  HD2  0.1391
+CHARGE   CRO01  HE1   0.144
+CHARGE   CRO01  HE2   0.144
+CHARGE   CRO01  HOH  0.4205
+CHARGE   CRO01  H40  0.4611
+
+CHARGE   CRO-2  N1  -0.8501
+CHARGE   CRO-2  CA1  0.1681
+CHARGE   CRO-2  CB1  0.1331
+CHARGE   CRO-2  CG1 -0.1293
+CHARGE   CRO-2  OG1 -0.6634
+CHARGE   CRO-2  C1   0.1622
+CHARGE   CRO-2  N2  -0.4972
+CHARGE   CRO-2  N3  -0.3804
+CHARGE   CRO-2  C2   0.7015
+CHARGE   CRO-2  O2  -0.6009
+CHARGE   CRO-2  CA2 -0.1806
+CHARGE   CRO-2  CA3 -0.0518
+CHARGE   CRO-2  C3   0.9408
+CHARGE   CRO-2  O3  -0.8065
+CHARGE   CRO-2  CB2  0.1361
+CHARGE   CRO-2  CG2 -0.2678
+CHARGE   CRO-2  CD1   -0.01
+CHARGE   CRO-2  CD2   -0.01
+CHARGE   CRO-2  CE1 -0.3077
+CHARGE   CRO-2  CE2 -0.3077
+CHARGE   CRO-2  CZ   0.5737
+CHARGE   CRO-2  OH  -0.6974
+CHARGE   CRO-2  OXT -0.8065
+CHARGE   CRO-2  HN11  0.4473
+CHARGE   CRO-2  H2   0.4473
+CHARGE   CRO-2  HA1  0.1145
+CHARGE   CRO-2  HB1   0.092
+CHARGE   CRO-2  HG11  0.0647
+CHARGE   CRO-2  HG12  0.0647
+CHARGE   CRO-2  HG13  0.0647
+CHARGE   CRO-2  HOG1  0.4289
+CHARGE   CRO-2  HA31 -0.0059
+CHARGE   CRO-2  HA32 -0.0059
+CHARGE   CRO-2  HB2  0.1337
+CHARGE   CRO-2  HD1  0.1102
+CHARGE   CRO-2  HD2  0.1102
+CHARGE   CRO-2  HE1   0.119
+CHARGE   CRO-2  HE2   0.119
+CHARGE   CRO-2  H39  0.4473
+
+CHARGE   CRO02  N1  -0.9097
+CHARGE   CRO02  CA1  0.1386
+CHARGE   CRO02  CB1  0.1489
+CHARGE   CRO02  CG1 -0.1396
+CHARGE   CRO02  OG1 -0.5772
+CHARGE   CRO02  C1   0.3888
+CHARGE   CRO02  N2  -0.5778
+CHARGE   CRO02  N3  -0.4244
+CHARGE   CRO02  C2   0.6808
+CHARGE   CRO02  O2  -0.5688
+CHARGE   CRO02  CA2 -0.0146
+CHARGE   CRO02  CA3  0.0639
+CHARGE   CRO02  C3   0.6013
+CHARGE   CRO02  O3  -0.5445
+CHARGE   CRO02  CB2  0.0294
+CHARGE   CRO02  CG2 -0.1177
+CHARGE   CRO02  CD1 -0.0621
+CHARGE   CRO02  CD2 -0.0621
+CHARGE   CRO02  CE1  -0.189
+CHARGE   CRO02  CE2  -0.189
+CHARGE   CRO02  CZ   0.1387
+CHARGE   CRO02  OH  -0.4942
+CHARGE   CRO02  OXT -0.5938
+CHARGE   CRO02  HN11  0.3728
+CHARGE   CRO02  H2   0.3728
+CHARGE   CRO02  HA1  0.0705
+CHARGE   CRO02  HB1  0.0975
+CHARGE   CRO02  HG11   0.051
+CHARGE   CRO02  HG12   0.051
+CHARGE   CRO02  HG13   0.051
+CHARGE   CRO02  HOG1  0.4008
+CHARGE   CRO02  HA31  0.1038
+CHARGE   CRO02  HA32  0.1038
+CHARGE   CRO02  HXT  0.4501
+CHARGE   CRO02  HB2  0.1552
+CHARGE   CRO02  HD1  0.1399
+CHARGE   CRO02  HD2  0.1399
+CHARGE   CRO02  HE1  0.1459
+CHARGE   CRO02  HE2  0.1459
+CHARGE   CRO02  HOH   0.422
+
+# EXTRA energy for tautomers:
+EXTRA    CRO-1         0.098
+EXTRA    CRO-a         1.152
+EXTRA    CRO01         2.906
+EXTRA    CRO-2         3.790
+EXTRA    CRO02         5.825
+

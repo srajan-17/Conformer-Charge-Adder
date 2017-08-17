@@ -1,0 +1,349 @@
+   Error! get_connect12(): connectivity of atom " N6  SAH-1 A0001" is not complete
+          get_connect12(): atom N62  in the same residue is not found
+VDW_RAD  SAH-1  N     1.82
+VDW_EPS  SAH-1  N     0.17
+VDW_RAD  SAH-1  CA    1.91
+VDW_EPS  SAH-1  CA    0.11
+VDW_RAD  SAH-1  CB    1.91
+VDW_EPS  SAH-1  CB    0.11
+VDW_RAD  SAH-1  CG    1.91
+VDW_EPS  SAH-1  CG    0.11
+VDW_RAD  SAH-1  SD    2.00
+VDW_EPS  SAH-1  SD    0.25
+VDW_RAD  SAH-1  C     1.91
+VDW_EPS  SAH-1  C     0.11
+VDW_RAD  SAH-1  O     1.66
+VDW_EPS  SAH-1  O     0.21
+VDW_RAD  SAH-1  OXT   1.66
+VDW_EPS  SAH-1  OXT   0.21
+VDW_RAD  SAH-1  C5'   1.91
+VDW_EPS  SAH-1  C5'   0.11
+VDW_RAD  SAH-1  C4'   1.91
+VDW_EPS  SAH-1  C4'   0.11
+VDW_RAD  SAH-1  O4'   1.66
+VDW_EPS  SAH-1  O4'   0.21
+VDW_RAD  SAH-1  C3'   1.91
+VDW_EPS  SAH-1  C3'   0.11
+VDW_RAD  SAH-1  O3'   1.66
+VDW_EPS  SAH-1  O3'   0.21
+VDW_RAD  SAH-1  C2'   1.91
+VDW_EPS  SAH-1  C2'   0.11
+VDW_RAD  SAH-1  O2'   1.66
+VDW_EPS  SAH-1  O2'   0.21
+VDW_RAD  SAH-1  C1'   1.91
+VDW_EPS  SAH-1  C1'   0.11
+VDW_RAD  SAH-1  N9    1.82
+VDW_EPS  SAH-1  N9    0.17
+VDW_RAD  SAH-1  C8    1.91
+VDW_EPS  SAH-1  C8    0.11
+VDW_RAD  SAH-1  N7    1.82
+VDW_EPS  SAH-1  N7    0.17
+VDW_RAD  SAH-1  C5    1.91
+VDW_EPS  SAH-1  C5    0.11
+VDW_RAD  SAH-1  C6    1.91
+VDW_EPS  SAH-1  C6    0.11
+VDW_RAD  SAH-1  N6    1.82
+VDW_EPS  SAH-1  N6    0.17
+VDW_RAD  SAH-1  N1    1.82
+VDW_EPS  SAH-1  N1    0.17
+VDW_RAD  SAH-1  C2    1.91
+VDW_EPS  SAH-1  C2    0.11
+VDW_RAD  SAH-1  N3    1.82
+VDW_EPS  SAH-1  N3    0.17
+VDW_RAD  SAH-1  C4    1.91
+VDW_EPS  SAH-1  C4    0.11
+VDW_RAD  SAH-1   HA   1.91
+VDW_EPS  SAH-1   HA   0.11
+VDW_RAD  SAH-1 H5'1   1.91
+VDW_EPS  SAH-1 H5'1   0.11
+VDW_RAD  SAH-1 H5'2   1.91
+VDW_EPS  SAH-1 H5'2   0.11
+VDW_RAD  SAH-1 HO3'   1.66
+VDW_EPS  SAH-1 HO3'   0.21
+VDW_RAD  SAH-1 HO2'   1.66
+VDW_EPS  SAH-1 HO2'   0.21
+VDW_RAD  SAH-1   H8   1.91
+VDW_EPS  SAH-1   H8   0.11
+VDW_RAD  SAH-1 HN61   1.82
+VDW_EPS  SAH-1 HN61   0.17
+VDW_RAD  SAH-1 HN62   1.82
+VDW_EPS  SAH-1 HN62   0.17
+VDW_RAD  SAH-1   H2   1.91
+VDW_EPS  SAH-1   H2   0.11
+TORSION  SAH-1  HN1  N    CA   CB   f        0.0         3      0.00
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+   Error! get_connect12(): connectivity of atom " C5' SAH01 A0001" is not complete
+          get_connect12(): atom 5'2  in the same residue is not found
+TORSION  SAH02  HN1  N    CA   CB   f        0.0         3      0.00
+TORSION  SAH02  HXT  OXT  C    CA   f        0.0         3      0.00
+TORSION  SAH01  HN1  N    CA   CB   f        0.0         3      0.00
+TORSION  SAH01  H3'  O3'  C3'  C4'  f        0.0         3      0.00
+RADIUS   SAH    HXT   1.70
+VDW_RAD  SAH-1  HN1   1.49
+VDW_EPS  SAH-1  HN1   0.02
+VDW_RAD  SAH-1  HN2   1.49
+VDW_EPS  SAH-1  HN2   0.02
+VDW_RAD  SAH-1  HB1   1.49
+VDW_EPS  SAH-1  HB1   0.02
+VDW_RAD  SAH-1  HB2   1.49
+VDW_EPS  SAH-1  HB2   0.02
+VDW_RAD  SAH-1  HG1   1.49
+VDW_EPS  SAH-1  HG1   0.02
+VDW_RAD  SAH-1  HG2   1.49
+VDW_EPS  SAH-1  HG2   0.02
+VDW_RAD  SAH-1  H3'   1.49
+VDW_EPS  SAH-1  H3'   0.02
+VDW_RAD  SAH-1  H2'   1.49
+VDW_EPS  SAH-1  H2'   0.02
+VDW_RAD  SAH-1  H1'   1.49
+VDW_EPS  SAH-1  H1'   0.02
+VDW_RAD  SAH02  N     1.82
+VDW_EPS  SAH02  N     0.17
+VDW_RAD  SAH02  CA    1.91
+VDW_EPS  SAH02  CA    0.11
+VDW_RAD  SAH02  CB    1.91
+VDW_EPS  SAH02  CB    0.11
+VDW_RAD  SAH02  CG    1.91
+VDW_EPS  SAH02  CG    0.11
+VDW_RAD  SAH02  SD    2.00
+VDW_EPS  SAH02  SD    0.25
+VDW_RAD  SAH02  C     1.91
+VDW_EPS  SAH02  C     0.11
+VDW_RAD  SAH02  O     1.66
+VDW_EPS  SAH02  O     0.21
+VDW_RAD  SAH02  OXT   1.66
+VDW_EPS  SAH02  OXT   0.21
+VDW_RAD  SAH02  C5'   1.91
+VDW_EPS  SAH02  C5'   0.11
+VDW_RAD  SAH02  C4'   1.91
+VDW_EPS  SAH02  C4'   0.11
+VDW_RAD  SAH02  O4'   1.66
+VDW_EPS  SAH02  O4'   0.21
+VDW_RAD  SAH02  C3'   1.91
+VDW_EPS  SAH02  C3'   0.11
+VDW_RAD  SAH02  O3'   1.66
+VDW_EPS  SAH02  O3'   0.21
+VDW_RAD  SAH02  C2'   1.91
+VDW_EPS  SAH02  C2'   0.11
+VDW_RAD  SAH02  O2'   1.66
+VDW_EPS  SAH02  O2'   0.21
+VDW_RAD  SAH02  C1'   1.91
+VDW_EPS  SAH02  C1'   0.11
+VDW_RAD  SAH02  N9    1.82
+VDW_EPS  SAH02  N9    0.17
+VDW_RAD  SAH02  C8    1.91
+VDW_EPS  SAH02  C8    0.11
+VDW_RAD  SAH02  N7    1.82
+VDW_EPS  SAH02  N7    0.17
+VDW_RAD  SAH02  C5    1.91
+VDW_EPS  SAH02  C5    0.11
+VDW_RAD  SAH02  C6    1.91
+VDW_EPS  SAH02  C6    0.11
+VDW_RAD  SAH02  N6    1.82
+VDW_EPS  SAH02  N6    0.17
+VDW_RAD  SAH02  N1    1.82
+VDW_EPS  SAH02  N1    0.17
+VDW_RAD  SAH02  C2    1.91
+VDW_EPS  SAH02  C2    0.11
+VDW_RAD  SAH02  N3    1.82
+VDW_EPS  SAH02  N3    0.17
+VDW_RAD  SAH02  C4    1.91
+VDW_EPS  SAH02  C4    0.11
+VDW_RAD  SAH02  HN1   1.49
+VDW_EPS  SAH02  HN1   0.02
+VDW_RAD  SAH02  HN2   1.49
+VDW_EPS  SAH02  HN2   0.02
+VDW_RAD  SAH02   HA   1.91
+VDW_EPS  SAH02   HA   0.11
+VDW_RAD  SAH02  HB1   1.49
+VDW_EPS  SAH02  HB1   0.02
+VDW_RAD  SAH02  HB2   1.49
+VDW_EPS  SAH02  HB2   0.02
+VDW_RAD  SAH02  HG1   1.49
+VDW_EPS  SAH02  HG1   0.02
+VDW_RAD  SAH02  HG2   1.49
+VDW_EPS  SAH02  HG2   0.02
+VDW_RAD  SAH02  HXT   1.49
+VDW_EPS  SAH02  HXT   0.02
+VDW_RAD  SAH02 H5'1   1.91
+VDW_EPS  SAH02 H5'1   0.11
+VDW_RAD  SAH02 H5'2   1.91
+VDW_EPS  SAH02 H5'2   0.11
+VDW_RAD  SAH02  H4'   1.49
+VDW_EPS  SAH02  H4'   0.02
+VDW_RAD  SAH02  H3'   1.49
+VDW_EPS  SAH02  H3'   0.02
+VDW_RAD  SAH02 HO3'   1.66
+VDW_EPS  SAH02 HO3'   0.21
+VDW_RAD  SAH02  H2'   1.49
+VDW_EPS  SAH02  H2'   0.02
+VDW_RAD  SAH02 HO2'   1.66
+VDW_EPS  SAH02 HO2'   0.21
+VDW_RAD  SAH02  H1'   1.49
+VDW_EPS  SAH02  H1'   0.02
+VDW_RAD  SAH02   H8   1.91
+VDW_EPS  SAH02   H8   0.11
+VDW_RAD  SAH02 HN61   1.82
+VDW_EPS  SAH02 HN61   0.17
+VDW_RAD  SAH02 HN62   1.82
+VDW_EPS  SAH02 HN62   0.17
+VDW_RAD  SAH02   H2   1.91
+VDW_EPS  SAH02   H2   0.11
+VDW_RAD  SAH01  N     1.82
+VDW_EPS  SAH01  N     0.17
+VDW_RAD  SAH01  CA    1.91
+VDW_EPS  SAH01  CA    0.11
+VDW_RAD  SAH01  CB    1.91
+VDW_EPS  SAH01  CB    0.11
+VDW_RAD  SAH01  CG    1.91
+VDW_EPS  SAH01  CG    0.11
+VDW_RAD  SAH01  SD    2.00
+VDW_EPS  SAH01  SD    0.25
+VDW_RAD  SAH01  C     1.91
+VDW_EPS  SAH01  C     0.11
+VDW_RAD  SAH01  O     1.66
+VDW_EPS  SAH01  O     0.21
+VDW_RAD  SAH01  OXT   1.66
+VDW_EPS  SAH01  OXT   0.21
+VDW_RAD  SAH01  C5'   1.91
+VDW_EPS  SAH01  C5'   0.11
+VDW_RAD  SAH01  C4'   1.91
+VDW_EPS  SAH01  C4'   0.11
+VDW_RAD  SAH01  O4'   1.66
+VDW_EPS  SAH01  O4'   0.21
+VDW_RAD  SAH01  C3'   1.91
+VDW_EPS  SAH01  C3'   0.11
+VDW_RAD  SAH01  O3'   1.66
+VDW_EPS  SAH01  O3'   0.21
+VDW_RAD  SAH01  C2'   1.91
+VDW_EPS  SAH01  C2'   0.11
+VDW_RAD  SAH01  O2'   1.66
+VDW_EPS  SAH01  O2'   0.21
+VDW_RAD  SAH01  C1'   1.91
+VDW_EPS  SAH01  C1'   0.11
+VDW_RAD  SAH01  N9    1.82
+VDW_EPS  SAH01  N9    0.17
+VDW_RAD  SAH01  C8    1.91
+VDW_EPS  SAH01  C8    0.11
+VDW_RAD  SAH01  N7    1.82
+VDW_EPS  SAH01  N7    0.17
+VDW_RAD  SAH01  C5    1.91
+VDW_EPS  SAH01  C5    0.11
+VDW_RAD  SAH01  C6    1.91
+VDW_EPS  SAH01  C6    0.11
+VDW_RAD  SAH01  N6    1.82
+VDW_EPS  SAH01  N6    0.17
+VDW_RAD  SAH01  N1    1.82
+VDW_EPS  SAH01  N1    0.17
+VDW_RAD  SAH01  C2    1.91
+VDW_EPS  SAH01  C2    0.11
+VDW_RAD  SAH01  N3    1.82
+VDW_EPS  SAH01  N3    0.17
+VDW_RAD  SAH01  C4    1.91
+VDW_EPS  SAH01  C4    0.11
+VDW_RAD  SAH01  HN1   1.49
+VDW_EPS  SAH01  HN1   0.02
+VDW_RAD  SAH01  HN2   1.49
+VDW_EPS  SAH01  HN2   0.02
+VDW_RAD  SAH01   HA   1.91
+VDW_EPS  SAH01   HA   0.11
+VDW_RAD  SAH01  HB1   1.49
+VDW_EPS  SAH01  HB1   0.02
+VDW_RAD  SAH01  HB2   1.49
+VDW_EPS  SAH01  HB2   0.02
+VDW_RAD  SAH01  HG1   1.49
+VDW_EPS  SAH01  HG1   0.02
+VDW_RAD  SAH01  HG2   1.49
+VDW_EPS  SAH01  HG2   0.02
+VDW_RAD  SAH01 H5'1   1.91
+VDW_EPS  SAH01 H5'1   0.11
+VDW_RAD  SAH01 H5'2   1.91
+VDW_EPS  SAH01 H5'2   0.11
+VDW_RAD  SAH01  H4'   1.49
+VDW_EPS  SAH01  H4'   0.02
+VDW_RAD  SAH01  H3'   1.49
+VDW_EPS  SAH01  H3'   0.02
+VDW_RAD  SAH01 HO3'   1.66
+VDW_EPS  SAH01 HO3'   0.21
+VDW_RAD  SAH01 HO2'   1.66
+VDW_EPS  SAH01 HO2'   0.21
+VDW_RAD  SAH01  H1'   1.49
+VDW_EPS  SAH01  H1'   0.02
+VDW_RAD  SAH01   H8   1.91
+VDW_EPS  SAH01   H8   0.11
+VDW_RAD  SAH01 HN61   1.82
+VDW_EPS  SAH01 HN61   0.17
+VDW_RAD  SAH01 HN62   1.82
+VDW_EPS  SAH01 HN62   0.17
+VDW_RAD  SAH01   H2   1.91
+VDW_EPS  SAH01   H2   0.11
+VDW_RAD  SAH01  H46   1.49
+VDW_EPS  SAH01  H46   0.02
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C4'-H5'2 in res SAH A0001 is    2.171
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520
+Warning, bond length btw  C3'- H4' in res SAH A0001 is    2.131
+Warning, bond length btw  C2'-HO3' in res SAH A0001 is    2.840
+Warning, bond length btw  N6 -  H8 in res SAH A0001 is    5.520

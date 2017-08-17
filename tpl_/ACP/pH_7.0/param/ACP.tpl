@@ -1,0 +1,885 @@
+###################################################################
+# Topology File for:
+# param/ACP.tpl
+# ACP_pH_7.0
+#
+# Created on: 2017-05-08
+#
+# Created with: make_tpl_1.py by Stephanie Rodriguez & Salah Salah 
+##################################################################
+
+# neural always starts with 0
+# numberical value means the charge is 1
+# alphabet Lower case starting from "a" (and increasing) means the charge is 2
+# alphabet Upper case starting from "A" (and increasing) means the charge is 3
+# alphabet Lower case starting from "z" (and decreasing) means the charge is 4
+# alphabet Upper case starting from "Z" (and decreasing) means the charge is 5
+
+CONFLIST ACP        ACPBK ACP-A ACP-z ACP-a ACP-B ACPDM 
+
+NATOM    ACPBK      0
+NATOM    ACP-A      46
+NATOM    ACP-z      45
+NATOM    ACP-a      47
+NATOM    ACP-B      46
+NATOM    ACPDM      0
+
+IATOM    ACP-A    PG    0
+IATOM    ACP-A   O1G    1
+IATOM    ACP-A   O2G    2
+IATOM    ACP-A   O3G    3
+IATOM    ACP-A    PB    4
+IATOM    ACP-A   O1B    5
+IATOM    ACP-A   O2B    6
+IATOM    ACP-A   C3B    7
+IATOM    ACP-A    PA    8
+IATOM    ACP-A   O1A    9
+IATOM    ACP-A   O2A   10
+IATOM    ACP-A   O3A   11
+IATOM    ACP-A   O5'   12
+IATOM    ACP-A   C5'   13
+IATOM    ACP-A   C4'   14
+IATOM    ACP-A   O4'   15
+IATOM    ACP-A   C3'   16
+IATOM    ACP-A   O3'   17
+IATOM    ACP-A   C2'   18
+IATOM    ACP-A   O2'   19
+IATOM    ACP-A   C1'   20
+IATOM    ACP-A    N9   21
+IATOM    ACP-A    C8   22
+IATOM    ACP-A    N7   23
+IATOM    ACP-A    C5   24
+IATOM    ACP-A    C6   25
+IATOM    ACP-A    N6   26
+IATOM    ACP-A    N1   27
+IATOM    ACP-A    C2   28
+IATOM    ACP-A    N3   29
+IATOM    ACP-A    C4   30
+IATOM    ACP-A  HOG3   31
+IATOM    ACP-A  H3B1   32
+IATOM    ACP-A  H3B2   33
+IATOM    ACP-A  H5'1   34
+IATOM    ACP-A  H5'2   35
+IATOM    ACP-A   H4'   36
+IATOM    ACP-A   H3'   37
+IATOM    ACP-A  HO3'   38
+IATOM    ACP-A   H2'   39
+IATOM    ACP-A  HO2'   40
+IATOM    ACP-A   H1'   41
+IATOM    ACP-A    H8   42
+IATOM    ACP-A  HN61   43
+IATOM    ACP-A  HN62   44
+IATOM    ACP-A    H2   45
+
+IATOM    ACP-z    PG    0
+IATOM    ACP-z   O1G    1
+IATOM    ACP-z   O2G    2
+IATOM    ACP-z   O3G    3
+IATOM    ACP-z    PB    4
+IATOM    ACP-z   O1B    5
+IATOM    ACP-z   O2B    6
+IATOM    ACP-z   C3B    7
+IATOM    ACP-z    PA    8
+IATOM    ACP-z   O1A    9
+IATOM    ACP-z   O2A   10
+IATOM    ACP-z   O3A   11
+IATOM    ACP-z   O5'   12
+IATOM    ACP-z   C5'   13
+IATOM    ACP-z   C4'   14
+IATOM    ACP-z   O4'   15
+IATOM    ACP-z   C3'   16
+IATOM    ACP-z   O3'   17
+IATOM    ACP-z   C2'   18
+IATOM    ACP-z   O2'   19
+IATOM    ACP-z   C1'   20
+IATOM    ACP-z    N9   21
+IATOM    ACP-z    C8   22
+IATOM    ACP-z    N7   23
+IATOM    ACP-z    C5   24
+IATOM    ACP-z    C6   25
+IATOM    ACP-z    N6   26
+IATOM    ACP-z    N1   27
+IATOM    ACP-z    C2   28
+IATOM    ACP-z    N3   29
+IATOM    ACP-z    C4   30
+IATOM    ACP-z  H3B1   31
+IATOM    ACP-z  H3B2   32
+IATOM    ACP-z  H5'1   33
+IATOM    ACP-z  H5'2   34
+IATOM    ACP-z   H4'   35
+IATOM    ACP-z   H3'   36
+IATOM    ACP-z  HO3'   37
+IATOM    ACP-z   H2'   38
+IATOM    ACP-z  HO2'   39
+IATOM    ACP-z   H1'   40
+IATOM    ACP-z    H8   41
+IATOM    ACP-z  HN61   42
+IATOM    ACP-z  HN62   43
+IATOM    ACP-z    H2   44
+
+IATOM    ACP-a    PG    0
+IATOM    ACP-a   O1G    1
+IATOM    ACP-a   O2G    2
+IATOM    ACP-a   O3G    3
+IATOM    ACP-a    PB    4
+IATOM    ACP-a   O1B    5
+IATOM    ACP-a   O2B    6
+IATOM    ACP-a   C3B    7
+IATOM    ACP-a    PA    8
+IATOM    ACP-a   O1A    9
+IATOM    ACP-a   O2A   10
+IATOM    ACP-a   O3A   11
+IATOM    ACP-a   O5'   12
+IATOM    ACP-a   C5'   13
+IATOM    ACP-a   C4'   14
+IATOM    ACP-a   O4'   15
+IATOM    ACP-a   C3'   16
+IATOM    ACP-a   O3'   17
+IATOM    ACP-a   C2'   18
+IATOM    ACP-a   O2'   19
+IATOM    ACP-a   C1'   20
+IATOM    ACP-a    N9   21
+IATOM    ACP-a    C8   22
+IATOM    ACP-a    N7   23
+IATOM    ACP-a    C5   24
+IATOM    ACP-a    C6   25
+IATOM    ACP-a    N6   26
+IATOM    ACP-a    N1   27
+IATOM    ACP-a    C2   28
+IATOM    ACP-a    N3   29
+IATOM    ACP-a    C4   30
+IATOM    ACP-a  HOG3   31
+IATOM    ACP-a  H3B1   32
+IATOM    ACP-a  H3B2   33
+IATOM    ACP-a  HOA2   34
+IATOM    ACP-a  H5'1   35
+IATOM    ACP-a  H5'2   36
+IATOM    ACP-a   H4'   37
+IATOM    ACP-a   H3'   38
+IATOM    ACP-a  HO3'   39
+IATOM    ACP-a   H2'   40
+IATOM    ACP-a  HO2'   41
+IATOM    ACP-a   H1'   42
+IATOM    ACP-a    H8   43
+IATOM    ACP-a  HN61   44
+IATOM    ACP-a  HN62   45
+IATOM    ACP-a    H2   46
+
+IATOM    ACP-B    PG    0
+IATOM    ACP-B   O1G    1
+IATOM    ACP-B   O2G    2
+IATOM    ACP-B   O3G    3
+IATOM    ACP-B    PB    4
+IATOM    ACP-B   O1B    5
+IATOM    ACP-B   O2B    6
+IATOM    ACP-B   C3B    7
+IATOM    ACP-B    PA    8
+IATOM    ACP-B   O1A    9
+IATOM    ACP-B   O2A   10
+IATOM    ACP-B   O3A   11
+IATOM    ACP-B   O5'   12
+IATOM    ACP-B   C5'   13
+IATOM    ACP-B   C4'   14
+IATOM    ACP-B   O4'   15
+IATOM    ACP-B   C3'   16
+IATOM    ACP-B   O3'   17
+IATOM    ACP-B   C2'   18
+IATOM    ACP-B   O2'   19
+IATOM    ACP-B   C1'   20
+IATOM    ACP-B    N9   21
+IATOM    ACP-B    C8   22
+IATOM    ACP-B    N7   23
+IATOM    ACP-B    C5   24
+IATOM    ACP-B    C6   25
+IATOM    ACP-B    N6   26
+IATOM    ACP-B    N1   27
+IATOM    ACP-B    C2   28
+IATOM    ACP-B    N3   29
+IATOM    ACP-B    C4   30
+IATOM    ACP-B  H3B1   31
+IATOM    ACP-B  H3B2   32
+IATOM    ACP-B  HOA2   33
+IATOM    ACP-B  H5'1   34
+IATOM    ACP-B  H5'2   35
+IATOM    ACP-B   H4'   36
+IATOM    ACP-B   H3'   37
+IATOM    ACP-B  HO3'   38
+IATOM    ACP-B   H2'   39
+IATOM    ACP-B  HO2'   40
+IATOM    ACP-B   H1'   41
+IATOM    ACP-B    H8   42
+IATOM    ACP-B  HN61   43
+IATOM    ACP-B  HN62   44
+IATOM    ACP-B    H2   45
+
+ATOMNAME ACP-A     0  PG
+ATOMNAME ACP-A     1 O1G
+ATOMNAME ACP-A     2 O2G
+ATOMNAME ACP-A     3 O3G
+ATOMNAME ACP-A     4  PB
+ATOMNAME ACP-A     5 O1B
+ATOMNAME ACP-A     6 O2B
+ATOMNAME ACP-A     7 C3B
+ATOMNAME ACP-A     8  PA
+ATOMNAME ACP-A     9 O1A
+ATOMNAME ACP-A    10 O2A
+ATOMNAME ACP-A    11 O3A
+ATOMNAME ACP-A    12 O5'
+ATOMNAME ACP-A    13 C5'
+ATOMNAME ACP-A    14 C4'
+ATOMNAME ACP-A    15 O4'
+ATOMNAME ACP-A    16 C3'
+ATOMNAME ACP-A    17 O3'
+ATOMNAME ACP-A    18 C2'
+ATOMNAME ACP-A    19 O2'
+ATOMNAME ACP-A    20 C1'
+ATOMNAME ACP-A    21  N9
+ATOMNAME ACP-A    22  C8
+ATOMNAME ACP-A    23  N7
+ATOMNAME ACP-A    24  C5
+ATOMNAME ACP-A    25  C6
+ATOMNAME ACP-A    26  N6
+ATOMNAME ACP-A    27  N1
+ATOMNAME ACP-A    28  C2
+ATOMNAME ACP-A    29  N3
+ATOMNAME ACP-A    30  C4
+ATOMNAME ACP-A    31HOG3
+ATOMNAME ACP-A    32H3B1
+ATOMNAME ACP-A    33H3B2
+ATOMNAME ACP-A    34H5'1
+ATOMNAME ACP-A    35H5'2
+ATOMNAME ACP-A    36 H4'
+ATOMNAME ACP-A    37 H3'
+ATOMNAME ACP-A    38HO3'
+ATOMNAME ACP-A    39 H2'
+ATOMNAME ACP-A    40HO2'
+ATOMNAME ACP-A    41 H1'
+ATOMNAME ACP-A    42  H8
+ATOMNAME ACP-A    43HN61
+ATOMNAME ACP-A    44HN62
+ATOMNAME ACP-A    45  H2
+
+ATOMNAME ACP-z     0  PG
+ATOMNAME ACP-z     1 O1G
+ATOMNAME ACP-z     2 O2G
+ATOMNAME ACP-z     3 O3G
+ATOMNAME ACP-z     4  PB
+ATOMNAME ACP-z     5 O1B
+ATOMNAME ACP-z     6 O2B
+ATOMNAME ACP-z     7 C3B
+ATOMNAME ACP-z     8  PA
+ATOMNAME ACP-z     9 O1A
+ATOMNAME ACP-z    10 O2A
+ATOMNAME ACP-z    11 O3A
+ATOMNAME ACP-z    12 O5'
+ATOMNAME ACP-z    13 C5'
+ATOMNAME ACP-z    14 C4'
+ATOMNAME ACP-z    15 O4'
+ATOMNAME ACP-z    16 C3'
+ATOMNAME ACP-z    17 O3'
+ATOMNAME ACP-z    18 C2'
+ATOMNAME ACP-z    19 O2'
+ATOMNAME ACP-z    20 C1'
+ATOMNAME ACP-z    21  N9
+ATOMNAME ACP-z    22  C8
+ATOMNAME ACP-z    23  N7
+ATOMNAME ACP-z    24  C5
+ATOMNAME ACP-z    25  C6
+ATOMNAME ACP-z    26  N6
+ATOMNAME ACP-z    27  N1
+ATOMNAME ACP-z    28  C2
+ATOMNAME ACP-z    29  N3
+ATOMNAME ACP-z    30  C4
+ATOMNAME ACP-z    31H3B1
+ATOMNAME ACP-z    32H3B2
+ATOMNAME ACP-z    33H5'1
+ATOMNAME ACP-z    34H5'2
+ATOMNAME ACP-z    35 H4'
+ATOMNAME ACP-z    36 H3'
+ATOMNAME ACP-z    37HO3'
+ATOMNAME ACP-z    38 H2'
+ATOMNAME ACP-z    39HO2'
+ATOMNAME ACP-z    40 H1'
+ATOMNAME ACP-z    41  H8
+ATOMNAME ACP-z    42HN61
+ATOMNAME ACP-z    43HN62
+ATOMNAME ACP-z    44  H2
+
+ATOMNAME ACP-a     0  PG
+ATOMNAME ACP-a     1 O1G
+ATOMNAME ACP-a     2 O2G
+ATOMNAME ACP-a     3 O3G
+ATOMNAME ACP-a     4  PB
+ATOMNAME ACP-a     5 O1B
+ATOMNAME ACP-a     6 O2B
+ATOMNAME ACP-a     7 C3B
+ATOMNAME ACP-a     8  PA
+ATOMNAME ACP-a     9 O1A
+ATOMNAME ACP-a    10 O2A
+ATOMNAME ACP-a    11 O3A
+ATOMNAME ACP-a    12 O5'
+ATOMNAME ACP-a    13 C5'
+ATOMNAME ACP-a    14 C4'
+ATOMNAME ACP-a    15 O4'
+ATOMNAME ACP-a    16 C3'
+ATOMNAME ACP-a    17 O3'
+ATOMNAME ACP-a    18 C2'
+ATOMNAME ACP-a    19 O2'
+ATOMNAME ACP-a    20 C1'
+ATOMNAME ACP-a    21  N9
+ATOMNAME ACP-a    22  C8
+ATOMNAME ACP-a    23  N7
+ATOMNAME ACP-a    24  C5
+ATOMNAME ACP-a    25  C6
+ATOMNAME ACP-a    26  N6
+ATOMNAME ACP-a    27  N1
+ATOMNAME ACP-a    28  C2
+ATOMNAME ACP-a    29  N3
+ATOMNAME ACP-a    30  C4
+ATOMNAME ACP-a    31HOG3
+ATOMNAME ACP-a    32H3B1
+ATOMNAME ACP-a    33H3B2
+ATOMNAME ACP-a    34HOA2
+ATOMNAME ACP-a    35H5'1
+ATOMNAME ACP-a    36H5'2
+ATOMNAME ACP-a    37 H4'
+ATOMNAME ACP-a    38 H3'
+ATOMNAME ACP-a    39HO3'
+ATOMNAME ACP-a    40 H2'
+ATOMNAME ACP-a    41HO2'
+ATOMNAME ACP-a    42 H1'
+ATOMNAME ACP-a    43  H8
+ATOMNAME ACP-a    44HN61
+ATOMNAME ACP-a    45HN62
+ATOMNAME ACP-a    46  H2
+
+ATOMNAME ACP-B     0  PG
+ATOMNAME ACP-B     1 O1G
+ATOMNAME ACP-B     2 O2G
+ATOMNAME ACP-B     3 O3G
+ATOMNAME ACP-B     4  PB
+ATOMNAME ACP-B     5 O1B
+ATOMNAME ACP-B     6 O2B
+ATOMNAME ACP-B     7 C3B
+ATOMNAME ACP-B     8  PA
+ATOMNAME ACP-B     9 O1A
+ATOMNAME ACP-B    10 O2A
+ATOMNAME ACP-B    11 O3A
+ATOMNAME ACP-B    12 O5'
+ATOMNAME ACP-B    13 C5'
+ATOMNAME ACP-B    14 C4'
+ATOMNAME ACP-B    15 O4'
+ATOMNAME ACP-B    16 C3'
+ATOMNAME ACP-B    17 O3'
+ATOMNAME ACP-B    18 C2'
+ATOMNAME ACP-B    19 O2'
+ATOMNAME ACP-B    20 C1'
+ATOMNAME ACP-B    21  N9
+ATOMNAME ACP-B    22  C8
+ATOMNAME ACP-B    23  N7
+ATOMNAME ACP-B    24  C5
+ATOMNAME ACP-B    25  C6
+ATOMNAME ACP-B    26  N6
+ATOMNAME ACP-B    27  N1
+ATOMNAME ACP-B    28  C2
+ATOMNAME ACP-B    29  N3
+ATOMNAME ACP-B    30  C4
+ATOMNAME ACP-B    31H3B1
+ATOMNAME ACP-B    32H3B2
+ATOMNAME ACP-B    33HOA2
+ATOMNAME ACP-B    34H5'1
+ATOMNAME ACP-B    35H5'2
+ATOMNAME ACP-B    36 H4'
+ATOMNAME ACP-B    37 H3'
+ATOMNAME ACP-B    38HO3'
+ATOMNAME ACP-B    39 H2'
+ATOMNAME ACP-B    40HO2'
+ATOMNAME ACP-B    41 H1'
+ATOMNAME ACP-B    42  H8
+ATOMNAME ACP-B    43HN61
+ATOMNAME ACP-B    44HN62
+ATOMNAME ACP-B    45  H2
+
+#1.Basic Conformer Information: name, pka, em, rxn.
+#23456789A123456789B123456789C
+
+# PROTON SECTION: PROTON means charge
+
+PROTON   ACP-A      0    
+PROTON   ACP-z      0    
+PROTON   ACP-a      0    
+PROTON   ACP-B      0    
+PROTON   ACPDM      0    
+
+# Solution pKa Section: pKa data from CRC Handbook of Chemistry and Physics
+# pka is set to zero
+PKA      ACP-A         0.000
+PKA      ACP-z         0.000
+PKA      ACP-a         0.000
+PKA      ACP-B         0.000
+PKA      ACPDM         0.000
+
+#ELECTRON SECTION:
+ELECTRON ACP-A      0.0  
+ELECTRON ACP-z      0.0  
+ELECTRON ACP-a      0.0  
+ELECTRON ACP-B      0.0  
+ELECTRON ACPDM      0.0  
+
+# EM SECTION:
+EM       ACP-A      0.0  
+EM       ACP-z      0.0  
+EM       ACP-a      0.0  
+EM       ACP-B      0.0  
+EM       ACPDM      0.0  
+
+# REACTION FIELD ENERGY SECTION:
+RXN      ACP-A      0.0  
+RXN      ACP-z      0.0  
+RXN      ACP-a      0.0  
+RXN      ACP-B      0.0  
+
+#  ACP-A
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  ACP-A  PG     sp3     0   O1G   0   O2G   0   O3G   0   C3B  
+CONNECT  ACP-A O1G     sp2     0    PG  
+CONNECT  ACP-A O2G     sp3     0    PG  
+CONNECT  ACP-A O3G     sp3     0    PG   0   C3B 
+CONNECT  ACP-A  PB     sp3     0   O1B   0   O2B   0   C3B   0   O3A  
+CONNECT  ACP-A O1B     sp2     0    PB  
+CONNECT  ACP-A O2B     sp3     0    PB  
+CONNECT  ACP-A C3B     sp3     0    PG   0    PB   0   H3B2  0   H3B1 
+CONNECT  ACP-A  PA     sp3     0   O1A   0   O2A   0   O3A   0   O5'  
+CONNECT  ACP-A O1A     sp2     0    PA  
+CONNECT  ACP-A O2A     sp3     0    PA  
+CONNECT  ACP-A O3A     sp3     0    PB   0    PA  
+CONNECT  ACP-A O5'     sp3     0    PA   0   C5'  
+CONNECT  ACP-A C5'     sp3     0   O5'   0   C4'   0   H5'1  0   H5'2 
+CONNECT  ACP-A C4'     sp3     0   C5'   0   O4'   0   C3'   0   H4'  
+CONNECT  ACP-A O4'     sp3     0   C4'   0   C1'  
+CONNECT  ACP-A C3'     sp3     0   C4'   0   O3'   0   C2'   0   H3'  
+CONNECT  ACP-A O3'     sp3     0   C3'   0   HO3' 
+CONNECT  ACP-A C2'     sp3     0   C3'   0   O2'   0   C1'   0   H2'  
+CONNECT  ACP-A O2'     sp3     0   C2'   0   HO2' 
+CONNECT  ACP-A C1'     sp3     0   O4'   0   C2'   0    N9   0   H1'  
+CONNECT  ACP-A  N9     sp3     0   C1'   0    C8   0    C4  
+CONNECT  ACP-A  C8     sp2     0    N9   0    N7   0    H8  
+CONNECT  ACP-A  N7     sp2     0    C8   0    C5  
+CONNECT  ACP-A  C5     sp2     0    N7   0    C6   0    C4  
+CONNECT  ACP-A  C6     sp2     0    C5   0    N6   0    N1  
+CONNECT  ACP-A  N6     sp3     0    C6   0   HN61  0   HN62 
+CONNECT  ACP-A  N1     sp2     0    C6   0    C2  
+CONNECT  ACP-A  C2     sp2     0    N1   0    N3   0    H2  
+CONNECT  ACP-A  N3     sp2     0    C2   0    C4  
+CONNECT  ACP-A  C4     sp2     0    N9   0    C5   0    N3  
+CONNECT  ACP-A HOG3     s      0   O3G  
+CONNECT  ACP-A H3B1     s      0   C3B  
+CONNECT  ACP-A H3B2     s      0   C3B  
+CONNECT  ACP-A H5'1     s      0   C5'  
+CONNECT  ACP-A H5'2     s      0   C5'  
+CONNECT  ACP-A H4'      s      0   C4'  
+CONNECT  ACP-A H3'      s      0   C3'  
+CONNECT  ACP-A HO3'     s      0   O3'  
+CONNECT  ACP-A H2'      s      0   C2'  
+CONNECT  ACP-A HO2'     s      0   O2'  
+CONNECT  ACP-A H1'      s      0   C1'  
+CONNECT  ACP-A  H8      s      0    C8  
+CONNECT  ACP-A HN61     s      0    N6  
+CONNECT  ACP-A HN62     s      0    N6  
+CONNECT  ACP-A  H2      s      0    C2  
+
+#  ACP-z
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  ACP-z  PG     sp3     0   O1G   0   O2G   0   O3G   0   C3B  
+CONNECT  ACP-z O1G     sp2     0    PG  
+CONNECT  ACP-z O2G     sp3     0    PG  
+CONNECT  ACP-z O3G     sp3     0    PG  
+CONNECT  ACP-z  PB     sp3     0   O1B   0   O2B   0   C3B   0   O3A  
+CONNECT  ACP-z O1B     sp2     0    PB  
+CONNECT  ACP-z O2B     sp3     0    PB  
+CONNECT  ACP-z C3B     sp3     0    PG   0    PB   0   H3B1  0   H3B2 
+CONNECT  ACP-z  PA     sp3     0   O1A   0   O2A   0   O3A   0   O5'  
+CONNECT  ACP-z O1A     sp2     0    PA  
+CONNECT  ACP-z O2A     sp3     0    PA  
+CONNECT  ACP-z O3A     sp3     0    PB   0    PA  
+CONNECT  ACP-z O5'     sp3     0    PA   0   C5'  
+CONNECT  ACP-z C5'     sp3     0   O5'   0   C4'   0   H5'2  0   H5'1 
+CONNECT  ACP-z C4'     sp3     0   C5'   0   O4'   0   C3'   0   H4' 
+CONNECT  ACP-z O4'     sp3     0   C4'   0   C1'  
+CONNECT  ACP-z C3'     sp3     0   C4'   0   O3'   0   C2'   0   H3'  
+CONNECT  ACP-z O3'     sp3     0   C3'   0   H3'  
+CONNECT  ACP-z C2'     sp3     0   C3'   0   O2'   0   C1'   0   H2' 
+CONNECT  ACP-z O2'     sp3     0   C2'   0   H2'  
+CONNECT  ACP-z C1'     sp3     0   O4'   0   C2'   0    N9   0   H1' 
+CONNECT  ACP-z  N9     sp3     0   C1'   0    C8   0    C4  
+CONNECT  ACP-z  C8     sp2     0    N9   0    N7   0   H8  
+CONNECT  ACP-z  N7     sp2     0    C8   0    C5  
+CONNECT  ACP-z  C5     sp2     0    N7   0    C6   0    C4  
+CONNECT  ACP-z  C6     sp2     0    C5   0    N6   0    N1  
+CONNECT  ACP-z  N6     sp3     0    C6   0    HN62   0   HN61 
+CONNECT  ACP-z  N1     sp2     0    C6   0    C2  
+CONNECT  ACP-z  C2     sp2     0    N1   0    N3   0   H2 
+CONNECT  ACP-z  N3     sp2     0    C2   0    C4  
+CONNECT  ACP-z  C4     sp2     0    N9   0    C5   0    N3  
+CONNECT  ACP-z H3B1     s      0   C3B  
+CONNECT  ACP-z H3B2     s      0   C3B  
+CONNECT  ACP-z H5'1     s      0   C5'  
+CONNECT  ACP-z H5'2     s      0   C5'  
+CONNECT  ACP-z H4'      s      0   C4'  
+CONNECT  ACP-z H3'      s      0   C3'  
+CONNECT  ACP-z HO3'     s      0   O3'  
+CONNECT  ACP-z H2'      s      0   C2'  
+CONNECT  ACP-z HO2'     s      0   O2'  
+CONNECT  ACP-z H1'      s      0   C1'  
+CONNECT  ACP-z  H8      s      0    C8  
+CONNECT  ACP-z HN61     s      0    N6  
+CONNECT  ACP-z HN62     s      0    N6  
+CONNECT  ACP-z  H2      s      0    C2  
+
+#  ACP-a
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  ACP-a  PG     sp3     0   O1G   0   O2G   0   O3G   0   C3B  
+CONNECT  ACP-a O1G     sp2     0    PG  
+CONNECT  ACP-a O2G     sp3     0    PG  
+CONNECT  ACP-a O3G     sp3     0    PG   0   HOG3
+CONNECT  ACP-a  PB     sp3     0   O1B   0   O2B   0   C3B   0   O3A  
+CONNECT  ACP-a O1B     sp2     0    PB  
+CONNECT  ACP-a O2B     sp3     0    PB  
+CONNECT  ACP-a C3B     sp3     0    PG   0    PB   0   H3B2  0   H3B1
+CONNECT  ACP-a  PA     sp3     0   O1A   0   O2A   0   O3A   0   O5'  
+CONNECT  ACP-a O1A     sp2     0    PA  
+CONNECT  ACP-a O2A     sp3     0    PA   0   HOA2 
+CONNECT  ACP-a O3A     sp3     0    PB   0    PA  
+CONNECT  ACP-a O5'     sp3     0    PA   0   C5'  
+CONNECT  ACP-a C5'     sp3     0   O5'   0   C4'   0   H5'2  0   H5'1
+CONNECT  ACP-a C4'     sp3     0   C5'   0   O4'   0   C3'   0   H4'  
+CONNECT  ACP-a O4'     sp3     0   C4'   0   C1'  
+CONNECT  ACP-a C3'     sp3     0   C4'   0   O3'   0   C2'   0   H3' 
+CONNECT  ACP-a O3'     sp3     0   C3'   0   HO3'  
+CONNECT  ACP-a C2'     sp3     0   C3'   0   O2'   0   C1'   0   H2' 
+CONNECT  ACP-a O2'     sp3     0   C2'   0   HO2'  
+CONNECT  ACP-a C1'     sp3     0   O4'   0   C2'   0    N9   0    H1'  
+CONNECT  ACP-a  N9     sp3     0   C1'   0    C8   0    C4  
+CONNECT  ACP-a  C8     sp2     0    N9   0    N7   0   H8 
+CONNECT  ACP-a  N7     sp2     0    C8   0    C5  
+CONNECT  ACP-a  C5     sp2     0    N7   0    C6   0    C4  
+CONNECT  ACP-a  C6     sp2     0    C5   0    N6   0    N1  
+CONNECT  ACP-a  N6     sp3     0    C6   0   HN62  0    HN61  
+CONNECT  ACP-a  N1     sp2     0    C6   0    C2  
+CONNECT  ACP-a  C2     sp2     0    N1   0    N3   0    H2  
+CONNECT  ACP-a  N3     sp2     0    C2   0    C4  
+CONNECT  ACP-a  C4     sp2     0    N9   0    C5   0    N3  
+CONNECT  ACP-a HOG3     s      0   O3G  
+CONNECT  ACP-a H3B1     s      0   C3B  
+CONNECT  ACP-a H3B2     s      0   C3B  
+CONNECT  ACP-a HOA2     s      0   O2A  
+CONNECT  ACP-a H5'1     s      0   C5'  
+CONNECT  ACP-a H5'2     s      0   C5'  
+CONNECT  ACP-a H4'      s      0   C4'  
+CONNECT  ACP-a H3'      s      0   C3'  
+CONNECT  ACP-a HO3'     s      0   O3'  
+CONNECT  ACP-a H2'      s      0   C2'  
+CONNECT  ACP-a HO2'     s      0   O2'  
+CONNECT  ACP-a H1'      s      0   C1'  
+CONNECT  ACP-a  H8      s      0    C8  
+CONNECT  ACP-a HN61     s      0    N6  
+CONNECT  ACP-a HN62     s      0    N6  
+CONNECT  ACP-a  H2      s      0    C2  
+
+#  ACP-B
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  ACP-B  PG     sp3     0   O1G   0   O2G   0   O3G   0   C3B  
+CONNECT  ACP-B O1G     sp2     0    PG  
+CONNECT  ACP-B O2G     sp3     0    PG  
+CONNECT  ACP-B O3G     sp3     0    PG  
+CONNECT  ACP-B  PB     sp3     0   O1B   0   O2B   0   C3B   0   O3A  
+CONNECT  ACP-B O1B     sp2     0    PB  
+CONNECT  ACP-B O2B     sp3     0    PB  
+CONNECT  ACP-B C3B     sp3     0    PG   0    PB   0   H3B1  0   H3B2 
+CONNECT  ACP-B  PA     sp3     0   O1A   0   O2A   0   O3A   0   O5'  
+CONNECT  ACP-B O1A     sp2     0    PA  
+CONNECT  ACP-B O2A     sp3     0    PA   0   HOA2 
+CONNECT  ACP-B O3A     sp3     0    PB   0    PA  
+CONNECT  ACP-B O5'     sp3     0    PA   0   C5'  
+CONNECT  ACP-B C5'     sp3     0   O5'   0   C4'   0   H5'1  0   H5'2 
+CONNECT  ACP-B C4'     sp3     0   C5'   0   O4'   0   C3'   0   H4'  
+CONNECT  ACP-B O4'     sp3     0   C4'   0   C1'  
+CONNECT  ACP-B C3'     sp3     0   C4'   0   O3'   0   C2'   0   H3'  
+CONNECT  ACP-B O3'     sp3     0   C3'   0   HO3' 
+CONNECT  ACP-B C2'     sp3     0   C3'   0   O2'   0   C1'   0   H2'  
+CONNECT  ACP-B O2'     sp3     0   C2'   0   HO2' 
+CONNECT  ACP-B C1'     sp3     0   O4'   0   C2'   0    N9   0   H1'  
+CONNECT  ACP-B  N9     sp3     0   C1'   0    C8   0    C4  
+CONNECT  ACP-B  C8     sp2     0    N9   0    N7   0    H8  
+CONNECT  ACP-B  N7     sp2     0    C8   0    C5  
+CONNECT  ACP-B  C5     sp2     0    N7   0    C6   0    C4  
+CONNECT  ACP-B  C6     sp2     0    C5   0    N6   0    N1  
+CONNECT  ACP-B  N6     sp3     0    C6   0   HN61  0   HN62 
+CONNECT  ACP-B  N1     sp2     0    C6   0    C2  
+CONNECT  ACP-B  C2     sp2     0    N1   0    N3   0    H2  
+CONNECT  ACP-B  N3     sp2     0    C2   0    C4  
+CONNECT  ACP-B  C4     sp2     0    N9   0    C5   0    N3  
+CONNECT  ACP-B H3B1     s      0   C3B  
+CONNECT  ACP-B H3B2     s      0   C3B  
+CONNECT  ACP-B HOA2     s      0   O2A  
+CONNECT  ACP-B H5'1     s      0   C5'  
+CONNECT  ACP-B H5'2     s      0   C5'  
+CONNECT  ACP-B H4'      s      0   C4'  
+CONNECT  ACP-B H3'      s      0   C3'  
+CONNECT  ACP-B HO3'     s      0   O3'  
+CONNECT  ACP-B H2'      s      0   C2'  
+CONNECT  ACP-B HO2'     s      0   O2'  
+CONNECT  ACP-B H1'      s      0   C1'  
+CONNECT  ACP-B  H8      s      0    C8  
+CONNECT  ACP-B HN61     s      0    N6  
+CONNECT  ACP-B HN62     s      0    N6  
+CONNECT  ACP-B  H2      s      0    C2  
+
+# Atom Parameters:
+# Van Der Waals Radii. See source for reference
+RADIUS   ACP    PG        1.8
+RADIUS   ACP    O1G      1.52
+RADIUS   ACP    O2G      1.52
+RADIUS   ACP    O3G      1.52
+RADIUS   ACP    PB        1.8
+RADIUS   ACP    O1B      1.52
+RADIUS   ACP    O2B      1.52
+RADIUS   ACP    C3B       1.7
+RADIUS   ACP    PA        1.8
+RADIUS   ACP    O1A      1.52
+RADIUS   ACP    O2A      1.52
+RADIUS   ACP    O3A      1.52
+RADIUS   ACP    O5'      1.52
+RADIUS   ACP    C5'       1.7
+RADIUS   ACP    C4'       1.7
+RADIUS   ACP    O4'      1.52
+RADIUS   ACP    C3'       1.7
+RADIUS   ACP    O3'      1.52
+RADIUS   ACP    C2'       1.7
+RADIUS   ACP    O2'      1.52
+RADIUS   ACP    C1'       1.7
+RADIUS   ACP    N9       1.55
+RADIUS   ACP    C8        1.7
+RADIUS   ACP    N7       1.55
+RADIUS   ACP    C5        1.7
+RADIUS   ACP    C6        1.7
+RADIUS   ACP    N6       1.55
+RADIUS   ACP    N1       1.55
+RADIUS   ACP    C2        1.7
+RADIUS   ACP    N3       1.55
+RADIUS   ACP    C4        1.7
+RADIUS   ACP    HOG3      1.2
+RADIUS   ACP    H3B1      1.2
+RADIUS   ACP    H3B2      1.2
+RADIUS   ACP    HOA2      1.2
+RADIUS   ACP    H5'1      1.2
+RADIUS   ACP    H5'2      1.2
+RADIUS   ACP    H4'       1.2
+RADIUS   ACP    H3'       1.2
+RADIUS   ACP    HO3'      1.2
+RADIUS   ACP    H2'       1.2
+RADIUS   ACP    HO2'      1.2
+RADIUS   ACP    H1'       1.2
+RADIUS   ACP    H8        1.2
+RADIUS   ACP    HN61      1.2
+RADIUS   ACP    HN62      1.2
+RADIUS   ACP    H2        1.2
+
+CHARGE   ACP-A  PG   1.3841
+CHARGE   ACP-A  O1G -0.9006
+CHARGE   ACP-A  O2G -0.9006
+CHARGE   ACP-A  O3G -0.8023
+CHARGE   ACP-A  PB   1.5336
+CHARGE   ACP-A  O1B -0.9161
+CHARGE   ACP-A  O2B -0.9161
+CHARGE   ACP-A  C3B  -0.562
+CHARGE   ACP-A  PA    1.615
+CHARGE   ACP-A  O1A -0.8998
+CHARGE   ACP-A  O2A -0.8998
+CHARGE   ACP-A  O3A   -0.82
+CHARGE   ACP-A  O5' -0.5568
+CHARGE   ACP-A  C5'  0.2326
+CHARGE   ACP-A  C4'   0.115
+CHARGE   ACP-A  O4' -0.3893
+CHARGE   ACP-A  C3'  0.1209
+CHARGE   ACP-A  O3' -0.5313
+CHARGE   ACP-A  C2'  0.0502
+CHARGE   ACP-A  O2' -0.5729
+CHARGE   ACP-A  C1'   0.402
+CHARGE   ACP-A  N9  -0.6751
+CHARGE   ACP-A  C8   0.5826
+CHARGE   ACP-A  N7  -0.5895
+CHARGE   ACP-A  C5  -0.2012
+CHARGE   ACP-A  C6   0.7046
+CHARGE   ACP-A  N6  -0.9335
+CHARGE   ACP-A  N1  -0.8066
+CHARGE   ACP-A  C2   0.6478
+CHARGE   ACP-A  N3  -0.7184
+CHARGE   ACP-A  C4   0.5572
+CHARGE   ACP-A  HOG3  0.4087
+CHARGE   ACP-A  H3B1  0.0678
+CHARGE   ACP-A  H3B2  0.0678
+CHARGE   ACP-A  H5'1  0.0272
+CHARGE   ACP-A  H5'2  0.0272
+CHARGE   ACP-A  H4'  0.1247
+CHARGE   ACP-A  H3'  0.0465
+CHARGE   ACP-A  HO3'  0.3809
+CHARGE   ACP-A  H2'  0.0333
+CHARGE   ACP-A  HO2'  0.3932
+CHARGE   ACP-A  H1'   0.084
+CHARGE   ACP-A  H8    0.129
+CHARGE   ACP-A  HN61  0.4125
+CHARGE   ACP-A  HN62  0.4125
+CHARGE   ACP-A  H2   0.0309
+
+CHARGE   ACP-z  PG   1.1371
+CHARGE   ACP-z  O1G -0.8729
+CHARGE   ACP-z  O2G -0.8729
+CHARGE   ACP-z  O3G -0.8729
+CHARGE   ACP-z  PB    1.353
+CHARGE   ACP-z  O1B -0.8769
+CHARGE   ACP-z  O2B -0.8769
+CHARGE   ACP-z  C3B -0.2917
+CHARGE   ACP-z  PA   1.4515
+CHARGE   ACP-z  O1A -0.8638
+CHARGE   ACP-z  O2A -0.8638
+CHARGE   ACP-z  O3A -0.6999
+CHARGE   ACP-z  O5' -0.5471
+CHARGE   ACP-z  C5'  0.2123
+CHARGE   ACP-z  C4'  0.0901
+CHARGE   ACP-z  O4' -0.3685
+CHARGE   ACP-z  C3'   0.075
+CHARGE   ACP-z  O3' -0.6246
+CHARGE   ACP-z  C2'  0.1174
+CHARGE   ACP-z  O2' -0.5933
+CHARGE   ACP-z  C1'  0.4236
+CHARGE   ACP-z  N9  -0.6836
+CHARGE   ACP-z  C8   0.5038
+CHARGE   ACP-z  N7  -0.6089
+CHARGE   ACP-z  C5  -0.2126
+CHARGE   ACP-z  C6   0.6444
+CHARGE   ACP-z  N6  -1.0254
+CHARGE   ACP-z  N1  -0.8011
+CHARGE   ACP-z  C2   0.5537
+CHARGE   ACP-z  N3  -0.7575
+CHARGE   ACP-z  C4   0.5843
+CHARGE   ACP-z  H3B1  0.0136
+CHARGE   ACP-z  H3B2  0.0136
+CHARGE   ACP-z  H5'1  0.0335
+CHARGE   ACP-z  H5'2  0.0335
+CHARGE   ACP-z  H4'  0.1078
+CHARGE   ACP-z  H3'   0.036
+CHARGE   ACP-z  HO3'  0.4478
+CHARGE   ACP-z  H2'  0.0362
+CHARGE   ACP-z  HO2'  0.4122
+CHARGE   ACP-z  H1'  0.0988
+CHARGE   ACP-z  H8   0.0948
+CHARGE   ACP-z  HN61  0.4197
+CHARGE   ACP-z  HN62  0.4197
+CHARGE   ACP-z  H2   0.0011
+
+CHARGE   ACP-a  PG   1.3716
+CHARGE   ACP-a  O1G -0.8819
+CHARGE   ACP-a  O2G -0.8819
+CHARGE   ACP-a  O3G -0.7953
+CHARGE   ACP-a  PB   1.5175
+CHARGE   ACP-a  O1B -0.8713
+CHARGE   ACP-a  O2B -0.8713
+CHARGE   ACP-a  C3B -0.5767
+CHARGE   ACP-a  PA   1.7805
+CHARGE   ACP-a  O1A -0.8827
+CHARGE   ACP-a  O2A -0.7868
+CHARGE   ACP-a  O3A -0.7762
+CHARGE   ACP-a  O5' -0.5898
+CHARGE   ACP-a  C5'   0.187
+CHARGE   ACP-a  C4'  0.1295
+CHARGE   ACP-a  O4' -0.4043
+CHARGE   ACP-a  C3'  0.1377
+CHARGE   ACP-a  O3' -0.5393
+CHARGE   ACP-a  C2'  0.0539
+CHARGE   ACP-a  O2' -0.5735
+CHARGE   ACP-a  C1'  0.4056
+CHARGE   ACP-a  N9  -0.6863
+CHARGE   ACP-a  C8   0.5639
+CHARGE   ACP-a  N7  -0.5717
+CHARGE   ACP-a  C5  -0.2103
+CHARGE   ACP-a  C6   0.7278
+CHARGE   ACP-a  N6  -0.9426
+CHARGE   ACP-a  N1  -0.8009
+CHARGE   ACP-a  C2   0.6646
+CHARGE   ACP-a  N3  -0.7288
+CHARGE   ACP-a  C4   0.5655
+CHARGE   ACP-a  HOG3  0.4151
+CHARGE   ACP-a  H3B1  0.0859
+CHARGE   ACP-a  H3B2  0.0859
+CHARGE   ACP-a  HOA2  0.4454
+CHARGE   ACP-a  H5'1  0.0572
+CHARGE   ACP-a  H5'2  0.0572
+CHARGE   ACP-a  H4'  0.1215
+CHARGE   ACP-a  H3'  0.0656
+CHARGE   ACP-a  HO3'  0.3932
+CHARGE   ACP-a  H2'  0.0459
+CHARGE   ACP-a  HO2'  0.4019
+CHARGE   ACP-a  H1'  0.0948
+CHARGE   ACP-a  H8   0.1045
+CHARGE   ACP-a  HN61  0.4265
+CHARGE   ACP-a  HN62  0.4265
+CHARGE   ACP-a  H2   0.0392
+
+CHARGE   ACP-B  PG   1.2047
+CHARGE   ACP-B  O1G -0.9111
+CHARGE   ACP-B  O2G -0.9111
+CHARGE   ACP-B  O3G -0.9111
+CHARGE   ACP-B  PB   1.6017
+CHARGE   ACP-B  O1B -0.9427
+CHARGE   ACP-B  O2B -0.9427
+CHARGE   ACP-B  C3B -0.6881
+CHARGE   ACP-B  PA    1.745
+CHARGE   ACP-B  O1A -0.8986
+CHARGE   ACP-B  O2A -0.8001
+CHARGE   ACP-B  O3A -0.7427
+CHARGE   ACP-B  O5' -0.5747
+CHARGE   ACP-B  C5'  0.1906
+CHARGE   ACP-B  C4'  0.0831
+CHARGE   ACP-B  O4' -0.4094
+CHARGE   ACP-B  C3'  0.0765
+CHARGE   ACP-B  O3' -0.6012
+CHARGE   ACP-B  C2'  0.0592
+CHARGE   ACP-B  O2' -0.6118
+CHARGE   ACP-B  C1'  0.4235
+CHARGE   ACP-B  N9  -0.6768
+CHARGE   ACP-B  C8    0.582
+CHARGE   ACP-B  N7  -0.5746
+CHARGE   ACP-B  C5  -0.2007
+CHARGE   ACP-B  C6   0.7075
+CHARGE   ACP-B  N6   -0.938
+CHARGE   ACP-B  N1  -0.8083
+CHARGE   ACP-B  C2   0.6471
+CHARGE   ACP-B  N3  -0.7134
+CHARGE   ACP-B  C4   0.5789
+CHARGE   ACP-B  H3B1  0.0792
+CHARGE   ACP-B  H3B2  0.0792
+CHARGE   ACP-B  HOA2  0.4343
+CHARGE   ACP-B  H5'1  0.0733
+CHARGE   ACP-B  H5'2  0.0733
+CHARGE   ACP-B  H4'  0.1037
+CHARGE   ACP-B  H3'  0.1414
+CHARGE   ACP-B  HO3'  0.3924
+CHARGE   ACP-B  H2'  0.0894
+CHARGE   ACP-B  HO2'  0.4156
+CHARGE   ACP-B  H1'  0.0899
+CHARGE   ACP-B  H8   0.1294
+CHARGE   ACP-B  HN61  0.4142
+CHARGE   ACP-B  HN62  0.4142
+CHARGE   ACP-B  H2   0.0276
+
+# EXTRA energy for tautomers:
+EXTRA    ACP-A         0.154
+EXTRA    ACP-z         0.875
+EXTRA    ACP-a         4.898
+EXTRA    ACP-B         5.465
+
