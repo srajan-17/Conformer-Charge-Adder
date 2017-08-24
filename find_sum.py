@@ -22,11 +22,11 @@ def create_data_files(input_destination, output_destination):
                 cutoff_list.append(line_index)
             elif(word == "@<TRIPOS>BOND"):
                 cutoff_list.append(line_index)
-        for i in range(len(cutoff_list)/2):
-            output_data = open(output_destination + "/data" + str(i+1) + "d.tpl", "w")
-            data_to_write = file[cutoff_list[(i*2)]+1:cutoff_list[((i*2)+1)]]
-            output_data.write(''.join(data_to_write))
-            output_data.close()
+    for i in range(len(cutoff_list)/2):
+        output_data = open(output_destination + "/data" + str(i+1) + "d.tpl", "w")
+        data_to_write = file[cutoff_list[(i*2)]+1:cutoff_list[((i*2)+1)]]
+        output_data.write(''.join(data_to_write))
+        output_data.close()
 
 
 # getdatafiles() returns the total number of data files for the individual conformers in the specified directory
@@ -68,18 +68,25 @@ if __name__ == '__main__':
     
     arguments = args()
     
-    input_destination = str(os.getcwd()) + "/tpl_" + "/" + str(arguments.tl) + "/pH_" + str(arguments.pH) + "/" + str(arguments.tl) + "_pH_" + str(arguments.pH) + "-charged_output.mol2"
-    output_destination = str(os.getcwd()) + "/tpl_" + "/" + str(arguments.tl) + "/pH_" + str(arguments.pH) + "/param"
+    input_destination = str(os.getcwd()) + "/tpl_" + "/" + str(arguments.tl.upper()) + "/pH_" + str(arguments.pH.upper()) + "/" + str(arguments.tl.upper()) + "_pH_" + str(arguments.pH.upper()) + "-charged_output.mol2"
+    output_destination = str(os.getcwd()) + "/tpl_" + "/" + str(arguments.tl.upper()) + "/pH_" + str(arguments.pH.upper()) + "/param"
     
-    print ("\nInput destination: " + input_destination + "\n")
-    print ("Output destination: " + output_destination + "\n")
+    print("\nCreating files...\n")
 
     create_data_files(input_destination, output_destination)
-    
-    write_charges_file(output_destination, str(arguments.tl), str(arguments.pH))
+    write_charges_file(output_destination, str(arguments.tl.upper()), str(arguments.pH.upper()))
 
-    print("Number of data files: " + str(getdatafiles(output_destination)) + "\n")
+    print("Number of conformers in {0}, pH {1}: {2}\n".format(str(arguments.tl.upper()), arguments.pH.upper(),
+                                                          str(getdatafiles(output_destination))))
+    print("The final output file is charges_sum.tpl\n")
+    print("It is located in {0}\n".format(str(output_destination)))
 
-    print("Final output file made. It is: charges_sum.tpl\n")
+
+
+
+
+
+
+
 
 
