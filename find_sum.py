@@ -2,6 +2,14 @@ import numpy
 import os
 import datetime
 import argparse
+import sys
+
+
+# get_immediate_subdirectories() returns a list of all the directories that are in the specified directory
+def get_immediate_subdirectories(a_dir):
+    return [name for name in os.listdir(a_dir)
+            if os.path.isdir(os.path.join(a_dir, name))]
+
 
 # args() parses the arguments that the user provides in the command line when running the program
 def args():
@@ -45,7 +53,7 @@ def write_charges_file(output_destination, foldercode, pHno):
     charges_output_file.write("#\n")
     charges_output_file.write("# Created on: {}\n".format(datetime.date.today()))
     charges_output_file.write("#\n")
-    charges_output_file.write("# Created with: main.py by Stephanie Rodriguez & Siddharth Rajan\n")
+    charges_output_file.write("# Created with: find_sum.py by Siddharth Rajan\n")
     charges_output_file.write("#################################################################\n\n")
     
     total_sum = 0
@@ -66,11 +74,54 @@ def write_charges_file(output_destination, foldercode, pHno):
 
 if __name__ == '__main__':
     
-    arguments = args()
+    # Checks if this file is in the same directory as the tpl_ folder and if not, stop
+    if not os.path.exists(os.getcwd() + "/tpl_"):
+        sys.exit("\nError: tpl_ folder not found. Please ensure the following:\n"
+                 "1: The tpl_ folder is in the same directory as find_sum.py.\n"
+                 )
     
+    # Processes the arguments
+    arguments = args()
+
+    # Gets a list of the names of all directories in the tpl_ folder
+    lig = get_immediate_subdirectories(os.getcwd() + "/tpl_")
+
+    # If the provided argument for ligand is not in the list of ligands, stop
+    if arguments.tl.upper() not in lig:
+        sys.exit("\nError: No such ligand. Please ensure the following:\n"
+                 "1. The correct ligand is specified.\n")
+
+    # Gets a list of the pH number folders that are in the specified ligand's folder
+    all_pH = get_immediate_subdirectories(os.getcwd() + "/tpl_" + "/" + str(arguments.tl.upper()))
+
+    # Creates an empty list pH and appends the pH numbers found in all_pH to it
+    pH = []
+    
+    for p in all_pH:
+        if p == "pH_4.0":
+            pH.append("4.0")
+        elif p == "pH_7.0":
+            pH.append("7.0")
+        elif p == "pH_7.4":
+            pH.append("7.4")
+        elif p == "pH_10.0":
+            pH.append("10.0")
+
+    # If the provided argument for pH is not in the list of pHs, stop
+    if str(arguments.pH.upper()) not in pH:
+        sys.exit("\nError: No such pH for ligand. Please ensure the following:\n"
+             "1. The correct pH is specified.\n")
+
+    # Creates the input and output locations using the provided arguments
     input_destination = str(os.getcwd()) + "/tpl_" + "/" + str(arguments.tl.upper()) + "/pH_" + str(arguments.pH.upper()) + "/" + str(arguments.tl.upper()) + "_pH_" + str(arguments.pH.upper()) + "-charged_output.mol2"
     output_destination = str(os.getcwd()) + "/tpl_" + "/" + str(arguments.tl.upper()) + "/pH_" + str(arguments.pH.upper()) + "/param"
-    
+
+    # If the output place doesn't exist, stop
+    if not os.path.exists(output_destination):
+        sys.exit("\nError: Param folder not found. Please ensure the following:\n"
+                 "1: There is a param folder in every pH folder.\n")
+
+    # Creates files and specifies output location
     print("\nCreating files...\n")
 
     create_data_files(input_destination, output_destination)
@@ -81,7 +132,9 @@ if __name__ == '__main__':
     print("The final output file is charges_sum.tpl\n")
     print("It is located in {0}\n".format(str(output_destination)))
 
-
+    # Deletes the extra data files created in the process of making the final output file
+    for a in range(1, getdatafiles(output_destination) + 1):
+        os.remove(output_destination + "/data" + str(a) + "d.tpl")
 
 
 
